@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\123\Desktop\HCI\Projekat1\Casablanca\Casablanca\obj\Debug\net7.0-windows\
+C:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\obj\Debug\net7.0-windows\
 Casablanca
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\123\Desktop\HCI\Projekat1\Casablanca\Casablanca\App.xaml
-2376403462
+C:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\App.xaml
+5-1988080307
 
-17348635486
-1981723223080
-MainWindow.xaml;View\LoginView.xaml;
+30-1411460234
+206-1203238936
+Components\EmployeeDetailsView.xaml;Custom\BindablePasswordBox.xaml;View\AdminMainView.xaml;View\EmployeeView.xaml;View\LoginView.xaml;
 
-True
+False
 
