@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\App.xaml
-5-1988080307
+13-45572440
 
-2873325270
-206-1203238936
-Components\EmployeeDetailsView.xaml;Custom\BindablePasswordBox.xaml;View\AdminMainView.xaml;View\EmployeeView.xaml;View\LoginView.xaml;
+36-1011509854
+2161212994192
+Components\ChangeThemeControl.xaml;Components\EmployeeDetailsView.xaml;Components\LanguageSelectionControl.xaml;Custom\BindablePasswordBox.xaml;Custom\ButtonStyles.xaml;Themes\UIColorsCheerful.xaml;Themes\UIColorsDark.xaml;Themes\UIColorsLight.xaml;View\AdminMainView.xaml;View\DisplayArticlesView.xaml;View\DisplayEmployeesView.xaml;View\EmployeeMainView.xaml;View\LoginView.xaml;
 
 False
 

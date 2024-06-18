@@ -7,7 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Components\ChangeThemeControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Components\EmployeeDetailsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\LanguageSelectionControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Custom\BindablePasswordBox.xaml.cs">
@@ -16,7 +22,13 @@
     <Compile Update="View\AdminMainView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\EmployeeView.xaml.cs">
+    <Compile Update="View\DisplayArticlesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\DIsplayEmployeesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\EmployeeMainView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\LoginView.xaml.cs">
@@ -32,16 +44,40 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Components\ChangeThemeControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Components\EmployeeDetailsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\LanguageSelectionControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Custom\BindablePasswordBox.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <EmbeddedResource Update="Themes\UIColorsDark.xaml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Themes\UIColorsLight.xaml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Page Update="Custom\ButtonStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\UIColorsCheerful.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\AdminMainView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\EmployeeView.xaml">
+    <Page Update="View\DisplayArticlesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\DisplayEmployeesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\EmployeeMainView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\LoginView.xaml">

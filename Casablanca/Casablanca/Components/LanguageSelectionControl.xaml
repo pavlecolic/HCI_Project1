@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Casablanca.Components.LanguageSelectionControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Name="LanguageSelector">
+    <Grid>
+        <ComboBox x:Name="LanguageComboBox" HorizontalAlignment="Right" VerticalAlignment="Center" Width="55" SelectionChanged="LanguageComboBox_SelectionChanged" SelectedIndex="0" Background="Gray">
+            <ComboBoxItem Tag="en">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="pack://application:,,,/Casablanca;component/Images/flag_uk.png"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Tag="sr">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="pack://application:,,,/Casablanca;component/Images/flag_sr.png"/>
+                </StackPanel>
+            </ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</UserControl>

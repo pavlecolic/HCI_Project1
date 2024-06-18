@@ -1,0 +1,114 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FFFFFFFF"/>
+    <!-- White -->
+    <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#FFF0F0F0"/>
+
+    <Color x:Key="WinBorderColor2">#FFFFFF</Color>
+    <Color x:Key="WinBorderColor1">#D3D3D3</Color>
+    <Color x:Key="WinBorderColor3">#808080</Color>
+
+    <Color x:Key="SecondaryBackColor1">#FFFFFF</Color>
+    <Color x:Key="SecondaryBackColor2">#D3D3D3</Color>
+
+    <!-- Light Gray -->
+
+    <!-- Foreground Colors -->
+    <SolidColorBrush x:Key="PrimaryTextBrush" Color="#FF000000"/>
+    <!-- Black -->
+    <SolidColorBrush x:Key="SecondaryTextBrush" Color="#FF666666"/>
+    <!-- Dark Gray -->
+
+    <!-- Button Colors -->
+    <SolidColorBrush x:Key="PrimaryButtonBackgroundBrush" Color="#0F278BEF"/>
+    <!-- Primary Blue -->
+    <SolidColorBrush x:Key="PrimaryButtonBackgroundHoverBrush" Color="#FFFFFFFF"/>
+    <SolidColorBrush x:Key="PrimaryButtonClickedBrush" Color="#FF28AEED"/>
+    <!-- Primary Blue Hover -->
+    <SolidColorBrush x:Key="PrimaryButtonForegroundBrush" Color="#FFFFFFFF"/>
+    <!-- White -->
+
+    <SolidColorBrush x:Key="DangerButtonBackgroundBrush" Color="#FFE04848"/>
+    <!-- Danger Red -->
+    <SolidColorBrush x:Key="DangerButtonBackgroundHoverBrush" Color="#FFD10A0A"/>
+    <!-- Danger Red Hover -->
+    <SolidColorBrush x:Key="DangerButtonForegroundBrush" Color="#FFFFFFFF"/>
+    <!-- White -->
+
+    <!-- Border Colors -->
+    <SolidColorBrush x:Key="BorderBrush" Color="#FFCCCCCC"/>
+    <!-- Light Gray -->
+    <SolidColorBrush x:Key="FocusedBorderBrush" Color="#FF278BEF"/>
+    <!-- Primary Blue -->
+
+
+    <SolidColorBrush x:Key="color1" Color="#FFB3E5FC"/>
+    <!-- Light Blue -->
+    <SolidColorBrush x:Key="color2" Color="#FFB2DFDB"/>
+    <!-- Light Teal -->
+    <SolidColorBrush x:Key="color3" Color="#FFFFF9C4"/>
+    <!-- Light Yellow -->
+    <SolidColorBrush x:Key="color4" Color="#FFFFCCBC"/>
+    <!-- Light Orange -->
+    <SolidColorBrush x:Key="color5" Color="#FFD7CCC8"/>
+    <!-- Light Pink -->
+    <SolidColorBrush x:Key="color6" Color="#FFE1BEE7"/>
+    <!-- Light Purple -->
+    <SolidColorBrush x:Key="color7" Color="#FFC8E6C9"/>
+    <!-- Light Green -->
+    <SolidColorBrush x:Key="color8" Color="#FFF8BBD0"/>
+    <!-- Light Rose -->
+    <SolidColorBrush x:Key="color9" Color="#FFD1C4E9"/>
+    <!-- Light Lavender -->
+    <SolidColorBrush x:Key="color10" Color="#FFDCEDC8"/>
+    <!-- Light Lime -->
+
+    <SolidColorBrush x:Key="color11" Color="#FF0D47A1"/>
+    <!-- Dark Blue -->
+    <SolidColorBrush x:Key="color12" Color="#FF004D40"/>
+    <!-- Dark Teal -->
+    <SolidColorBrush x:Key="color13" Color="#FFF57F17"/>
+    <!-- Dark Yellow -->
+    <SolidColorBrush x:Key="color14" Color="#FFE65100"/>
+    <!-- Dark Orange -->
+    <SolidColorBrush x:Key="color15" Color="#FF4E342E"/>
+    <!-- Dark Brown -->
+    <SolidColorBrush x:Key="color16" Color="#FF6A1B9A"/>
+    <!-- Dark Purple -->
+    <SolidColorBrush x:Key="color17" Color="#FF2E7D32"/>
+    <!-- Dark Green -->
+    <SolidColorBrush x:Key="color18" Color="#FF880E4F"/>
+    <!-- Dark Rose -->
+    <SolidColorBrush x:Key="color19" Color="#FF311B92"/>
+    <!-- Dark Lavender -->
+    <SolidColorBrush x:Key="color20" Color="#FF827717"/>
+    <!-- Dark Lime -->
+
+    <SolidColorBrush x:Key="color21" Color="#FF6D6D6D"/>
+    <!-- Medium Gray -->
+    <SolidColorBrush x:Key="color22" Color="#FF8E8E8E"/>
+    <!-- Light Medium Gray -->
+    <SolidColorBrush x:Key="color23" Color="#FF607D8B"/>
+    <!-- Medium Blue Gray -->
+    <SolidColorBrush x:Key="color24" Color="#FF78909C"/>
+    <!-- Light Blue Gray -->
+    <SolidColorBrush x:Key="color25" Color="#FF9575CD"/>
+    <!-- Medium Purple -->
+    <SolidColorBrush x:Key="color26" Color="#FF90A4AE"/>
+    <!-- Medium Blue Gray -->
+    <SolidColorBrush x:Key="color27" Color="#FFA1887F"/>
+    <!-- Medium Brown -->
+    <SolidColorBrush x:Key="color28" Color="#FFA5D6A7"/>
+    <!-- Medium Green -->
+    <SolidColorBrush x:Key="color29" Color="#FFB0BEC5"/>
+    <!-- Light Medium Blue Gray -->
+    <SolidColorBrush x:Key="color30" Color="#FFBCAAA4"/>
+    <!-- Light Medium Brown -->
+    <SolidColorBrush x:Key="color31" Color="#FFC5CAE9"/>
+    <!-- Light Medium Purple -->
+
+
+
+
+</ResourceDictionary>

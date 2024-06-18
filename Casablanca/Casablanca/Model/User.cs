@@ -10,14 +10,16 @@ namespace Casablanca.Model
     {
     
         private int Id { get; }
-        private string username { get; set; }
-        private string password { get; set; }
-        private string firstName { get; set; }
-        private string lastName { get; set; }
-        private string theme { get; set; }
-        private string language { get; set; }
-        private double salary { get; set; }
+        public string password { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string theme { get; set; }
+        public string language { get; set; }
+        public double salary { get; set; }
+        public string username { get; set; }
         private bool isAdmin { get; }
+
+        public User() { }
 
         public User(int id, string username, string password, string firstName, string lastName, string theme, string language, double salary, bool isAdmin)
         {
