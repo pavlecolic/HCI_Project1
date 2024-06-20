@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Casablanca.Utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,7 @@ namespace Casablanca.View
         public LoginView()
         {
             InitializeComponent();
+            LanguageManager.ChangeLanguage("en");
         }
 
         private void Window_MouseDown(object sender, MouseEventArgs e)

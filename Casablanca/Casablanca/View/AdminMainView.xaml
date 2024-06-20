@@ -25,11 +25,10 @@
         <DataTemplate DataType="{x:Type viewModel:EmployeesViewModel}">
             <local:DisplayEmployeesView/>
         </DataTemplate>
-        
-        <DataTemplate DataType="{x:Type viewModel:ArticlesViewModel}">
-            <local:DisplayArticlesView/>
-        </DataTemplate>
 
+        <DataTemplate DataType="{x:Type viewModel:SuppliersViewModel}">
+            <local:SuppliersView/>
+        </DataTemplate>
     </Window.Resources>
 
 
@@ -80,16 +79,17 @@
 
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="Users" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
-                            <TextBlock Text="{x:Static p:Language.Employees}" Style="{DynamicResource menuButtonText}"/>
+                            <TextBlock Text="{DynamicResource employees}" Style="{DynamicResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
 
                     <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{DynamicResource color12}">
+                                 Tag="{DynamicResource color30}"
+                                 Command="{Binding ShowSupplierViewCommand}">
 
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="TruckField" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
-                            <TextBlock Text="{x:Static p:Language.Suppliers}" Style="{DynamicResource menuButtonText}"/>
+                            <TextBlock Text="{DynamicResource suppliers}" Style="{DynamicResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
 
@@ -98,7 +98,7 @@
 
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="ParachuteBox" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
-                            <TextBlock Text="{x:Static p:Language.Invoices}" Style="{DynamicResource menuButtonText}"/>
+                            <TextBlock Text="{DynamicResource invoices}" Style="{DynamicResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
 
@@ -109,7 +109,7 @@
 
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="CompactDisc" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
-                            <TextBlock Text="{x:Static p:Language.Articles}" Style="{DynamicResource menuButtonText}"/>
+                            <TextBlock Text="{DynamicResource articles}" Style="{DynamicResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
 
@@ -119,7 +119,7 @@
 
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="Font" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
-                            <TextBlock Text="{x:Static p:Language.ArticleTypes}" Style="{DynamicResource menuButtonText}"/>
+                            <TextBlock Text="{DynamicResource articleTypes}" Style="{DynamicResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
 
@@ -128,7 +128,7 @@
 
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="Gears" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
-                            <TextBlock Text="Settings" Style="{DynamicResource menuButtonText}"/>
+                            <TextBlock Text="{DynamicResource settings}" Style="{DynamicResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
 

@@ -7,7 +7,9 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Themes/UIColorsLight.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Resources/Strings.en.xaml" />
                 <ResourceDictionary Source="Custom/ButtonStyles.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

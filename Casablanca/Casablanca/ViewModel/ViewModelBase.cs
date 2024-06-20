@@ -15,5 +15,12 @@ namespace Casablanca.ViewModel
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        public virtual void Refresh()
+        {
+            OnPropertyChange(string.Empty);
+        }
     }
+
+   
 }

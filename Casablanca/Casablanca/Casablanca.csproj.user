@@ -19,6 +19,9 @@
     <Compile Update="Custom\BindablePasswordBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\Modal\AddEmployeeDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\AdminMainView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -32,6 +35,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\LoginView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Modal\AddSupplierDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SuppliersView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -65,7 +74,22 @@
     <Page Update="Custom\ButtonStyles.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Custom\DataGridStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Custom\TableStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Strings.en.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Strings.sr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\UIColorsCheerful.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modal\AddEmployeeDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\AdminMainView.xaml">
@@ -81,6 +105,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\LoginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modal\AddSupplierDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SuppliersView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

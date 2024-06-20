@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Casablanca.Model;
+using Casablanca.Utils;
+using Casablanca.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +23,12 @@ namespace Casablanca.View
     /// </summary>
     public partial class DisplayEmployeesView : UserControl
     {
+       
+
         public DisplayEmployeesView()
         {
             InitializeComponent();
         }
+
     }
 }

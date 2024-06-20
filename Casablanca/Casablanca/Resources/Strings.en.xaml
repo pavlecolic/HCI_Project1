@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+
+    <sys:String x:Key="slogan">Your favorite movies in one place.</sys:String>
+    <sys:String x:Key="username">Username</sys:String>
+    <sys:String x:Key="password">Password</sys:String>
+    <sys:String x:Key="logIn">LOG IN</sys:String>
+    <sys:String x:Key="employees">Employees</sys:String>
+    <sys:String x:Key="suppliers">Suppliers</sys:String>
+    <sys:String x:Key="invoices">Invoices</sys:String>
+    <sys:String x:Key="articles">Articles</sys:String>
+    <sys:String x:Key="articleTypes">Article Types</sys:String>
+    <sys:String x:Key="badCredentialsMessage">* Invalid username or password</sys:String>
+    <sys:String x:Key="settings">Settings</sys:String>
+    <sys:String x:Key="firstName">First Name</sys:String>
+    <sys:String x:Key="lastName">Last Name</sys:String>
+    <sys:String x:Key="salary">Salary</sys:String>
+    <sys:String x:Key="save">Save</sys:String>
+    <sys:String x:Key="cancel">Cancel</sys:String>
+    <sys:String x:Key="confirmPassword">Confirm Password</sys:String>
+    <sys:String x:Key="passwordsNotMatching">Passwords not matching</sys:String>
+    <sys:String x:Key="usernameExists">Username taken</sys:String>
+    <sys:String x:Key="add">Add</sys:String>
+    <sys:String x:Key="edit">Edit</sys:String>
+    <sys:String x:Key="remove">Remove</sys:String>
+    <sys:String x:Key="name">Name</sys:String>
+    <sys:String x:Key="contact">Contact</sys:String>
+    <sys:String x:Key="addSupplier">Add Supplier</sys:String>
+    <sys:String x:Key="supplierExists">* Supplier Exists</sys:String>
+
+
+</ResourceDictionary>

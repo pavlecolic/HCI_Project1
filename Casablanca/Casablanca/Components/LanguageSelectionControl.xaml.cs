@@ -17,13 +17,15 @@ namespace Casablanca.Components
         {
             InitializeComponent();
         }
+        public event EventHandler LanguageChanged;
 
         private void LanguageComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (LanguageComboBox.SelectedItem is ComboBoxItem selectedItem)
             {
-                string selectedLanguage = selectedItem.Tag.ToString();
-                LanguageManager.ChangeLanguage(selectedLanguage);
+                string? cultureName = selectedItem.Tag.ToString();
+                LanguageManager.ChangeLanguage(cultureName!);
+
             }
 
            

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Casablanca.ViewModel
 {
-    class ArticlesViewModel : ViewModelBase
+    public class ArticlesViewModel : ViewModelBase
     {
+
     }
 }

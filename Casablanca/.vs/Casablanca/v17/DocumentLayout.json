@@ -3,132 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\model\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\model\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\viewmodel\\suppliersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\viewmodel\\suppliersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\repository\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\repository\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\viewmodel\\adminmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\viewmodel\\adminmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\model\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\model\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\adminmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\adminmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\viewmodel\\addsupplierviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\viewmodel\\addsupplierviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\displayemployeesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\displayemployeesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\modal\\addsupplierdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\modal\\addsupplierdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\displayemployeesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\displayemployeesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\suppliersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\suppliersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\adminmainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\adminmainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\displayarticlesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\displayarticlesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\employeemainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\employeemainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\components\\changethemecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\components\\changethemecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\components\\employeedetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\components\\employeedetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\components\\languageselectioncontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\components\\languageselectioncontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\modal\\addemployeedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\modal\\addemployeedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\casablanca.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\casablanca.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\resources\\strings.sr.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\resources\\strings.sr.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\resources\\strings.en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\resources\\strings.en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\viewmodel\\addemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\viewmodel\\addemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\themes\\uicolorscheerful.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\themes\\uicolorscheerful.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\modal\\addemployeedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\modal\\addemployeedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\custom\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\custom\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\viewmodel\\employeesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\viewmodel\\employeesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\themes\\uicolorslight.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\themes\\uicolorslight.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\displayemployeesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\displayemployeesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\themes\\uicolorsdark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\themes\\uicolorsdark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\custom\\bindablepasswordbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\custom\\bindablepasswordbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\utils\\languagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\utils\\languagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\components\\changethemecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\components\\changethemecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\utils\\apptheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\utils\\apptheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\components\\languageselectioncontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\components\\languageselectioncontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\resources\\language.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\resources\\language.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|c:\\users\\korisnik\\desktop\\hci\\projekat1\\casablanca\\casablanca\\viewmodel\\adminmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C77949-82B7-49EC-BBEC-DF33E96B53B6}|Casablanca\\Casablanca.csproj|solutionrelative:casablanca\\viewmodel\\adminmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,404 +86,217 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Model\\Invoice.cs",
-              "RelativeDocumentMoniker": "Casablanca\\Model\\Invoice.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Model\\Invoice.cs",
-              "RelativeToolTip": "Casablanca\\Model\\Invoice.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Casablanca\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Model\\User.cs",
+              "RelativeToolTip": "Casablanca\\Model\\User.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T20:26:33.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewModelCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\ViewModelCommand.cs",
-              "RelativeDocumentMoniker": "Casablanca\\ViewModel\\ViewModelCommand.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\ViewModelCommand.cs",
-              "RelativeToolTip": "Casablanca\\ViewModel\\ViewModelCommand.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T10:53:36.41Z",
+              "WhenOpened": "2024-06-20T18:21:42.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AdminMainView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\AdminMainView.xaml.cs",
+              "RelativeDocumentMoniker": "Casablanca\\View\\AdminMainView.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\AdminMainView.xaml.cs",
+              "RelativeToolTip": "Casablanca\\View\\AdminMainView.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:15:34.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddEmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\AddEmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "Casablanca\\ViewModel\\AddEmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\AddEmployeeViewModel.cs",
+              "RelativeToolTip": "Casablanca\\ViewModel\\AddEmployeeViewModel.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAwLEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:58:03.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddSupplierViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\AddSupplierViewModel.cs",
+              "RelativeDocumentMoniker": "Casablanca\\ViewModel\\AddSupplierViewModel.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\AddSupplierViewModel.cs",
+              "RelativeToolTip": "Casablanca\\ViewModel\\AddSupplierViewModel.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T16:38:14.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddSupplierDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\Modal\\AddSupplierDialog.xaml",
+              "RelativeDocumentMoniker": "Casablanca\\View\\Modal\\AddSupplierDialog.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\Modal\\AddSupplierDialog.xaml",
+              "RelativeToolTip": "Casablanca\\View\\Modal\\AddSupplierDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-20T16:35:44.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddEmployeeDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\Modal\\AddEmployeeDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Casablanca\\View\\Modal\\AddEmployeeDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\Modal\\AddEmployeeDialog.xaml.cs",
+              "RelativeToolTip": "Casablanca\\View\\Modal\\AddEmployeeDialog.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T16:33:28.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\EmployeesViewModel.cs",
+              "RelativeDocumentMoniker": "Casablanca\\ViewModel\\EmployeesViewModel.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\EmployeesViewModel.cs",
+              "RelativeToolTip": "Casablanca\\ViewModel\\EmployeesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T16:32:43.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddEmployeeDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\Modal\\AddEmployeeDialog.xaml",
+              "RelativeDocumentMoniker": "Casablanca\\View\\Modal\\AddEmployeeDialog.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\Modal\\AddEmployeeDialog.xaml",
+              "RelativeToolTip": "Casablanca\\View\\Modal\\AddEmployeeDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-20T16:31:58.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Strings.sr.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Resources\\Strings.sr.xaml",
+              "RelativeDocumentMoniker": "Casablanca\\Resources\\Strings.sr.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Resources\\Strings.sr.xaml",
+              "RelativeToolTip": "Casablanca\\Resources\\Strings.sr.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-20T16:12:14.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Strings.en.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Resources\\Strings.en.xaml",
+              "RelativeDocumentMoniker": "Casablanca\\Resources\\Strings.en.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Resources\\Strings.en.xaml",
+              "RelativeToolTip": "Casablanca\\Resources\\Strings.en.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-20T16:11:55.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Model\\Supplier.cs",
+              "RelativeDocumentMoniker": "Casablanca\\Model\\Supplier.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Model\\Supplier.cs",
+              "RelativeToolTip": "Casablanca\\Model\\Supplier.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAjwCYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T15:58:48.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Repository\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "Casablanca\\Repository\\SupplierRepository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Repository\\SupplierRepository.cs",
+              "RelativeToolTip": "Casablanca\\Repository\\SupplierRepository.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwHkAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T16:05:29.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Casablanca\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Casablanca\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAjwL0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T15:55:03.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "DisplayEmployeesView.xaml",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\DisplayEmployeesView.xaml",
               "RelativeDocumentMoniker": "Casablanca\\View\\DisplayEmployeesView.xaml",
               "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\DisplayEmployeesView.xaml",
               "RelativeToolTip": "Casablanca\\View\\DisplayEmployeesView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T19:31:11.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DIsplayEmployeesView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\DIsplayEmployeesView.xaml.cs",
-              "RelativeDocumentMoniker": "Casablanca\\View\\DIsplayEmployeesView.xaml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\DIsplayEmployeesView.xaml.cs",
-              "RelativeToolTip": "Casablanca\\View\\DIsplayEmployeesView.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T20:09:34.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminMainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\AdminMainViewModel.cs",
-              "RelativeDocumentMoniker": "Casablanca\\ViewModel\\AdminMainViewModel.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\AdminMainViewModel.cs",
-              "RelativeToolTip": "Casablanca\\ViewModel\\AdminMainViewModel.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAGQAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T10:16:10.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Model\\User.cs",
-              "RelativeDocumentMoniker": "Casablanca\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Model\\User.cs",
-              "RelativeToolTip": "Casablanca\\Model\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T10:15:04.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "Casablanca\\ViewModel\\ViewModelBase.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\ViewModelBase.cs",
-              "RelativeToolTip": "Casablanca\\ViewModel\\ViewModelBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T10:52:54.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\App.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\App.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\App.xaml",
-              "RelativeToolTip": "Casablanca\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T11:17:35.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminMainView.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\AdminMainView.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\View\\AdminMainView.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\AdminMainView.xaml",
-              "RelativeToolTip": "Casablanca\\View\\AdminMainView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T10:26:48.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\LoginView.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\View\\LoginView.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\LoginView.xaml",
-              "RelativeToolTip": "Casablanca\\View\\LoginView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T10:32:10.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DisplayArticlesView.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\DisplayArticlesView.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\View\\DisplayArticlesView.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\DisplayArticlesView.xaml",
-              "RelativeToolTip": "Casablanca\\View\\DisplayArticlesView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T19:31:33.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ChangeThemeControl.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Components\\ChangeThemeControl.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\Components\\ChangeThemeControl.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Components\\ChangeThemeControl.xaml",
-              "RelativeToolTip": "Casablanca\\Components\\ChangeThemeControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T11:20:32.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmployeeMainView.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\EmployeeMainView.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\View\\EmployeeMainView.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\EmployeeMainView.xaml",
-              "RelativeToolTip": "Casablanca\\View\\EmployeeMainView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T13:06:50.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EmployeeDetailsView.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Components\\EmployeeDetailsView.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\Components\\EmployeeDetailsView.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Components\\EmployeeDetailsView.xaml",
-              "RelativeToolTip": "Casablanca\\Components\\EmployeeDetailsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T11:48:00.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LanguageSelectionControl.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Components\\LanguageSelectionControl.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\Components\\LanguageSelectionControl.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Components\\LanguageSelectionControl.xaml",
-              "RelativeToolTip": "Casablanca\\Components\\LanguageSelectionControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T11:34:23.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Casablanca\\ViewModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "Casablanca\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAAACUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T11:05:27.915Z",
+              "WhenOpened": "2024-06-20T15:52:16.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Casablanca.csproj",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Casablanca.csproj",
-              "RelativeDocumentMoniker": "Casablanca\\Casablanca.csproj",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Casablanca.csproj",
-              "RelativeToolTip": "Casablanca\\Casablanca.csproj",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-18T11:28:23.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Casablanca\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "Casablanca\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAnwBsAAAAQAAAA",
+              "Title": "AdminMainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\AdminMainViewModel.cs",
+              "RelativeDocumentMoniker": "Casablanca\\ViewModel\\AdminMainViewModel.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\AdminMainViewModel.cs",
+              "RelativeToolTip": "Casablanca\\ViewModel\\AdminMainViewModel.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T10:08:34.396Z",
+              "WhenOpened": "2024-06-20T15:47:30.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Casablanca\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\AssemblyInfo.cs",
-              "RelativeToolTip": "Casablanca\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "DocumentIndex": 0,
+              "Title": "SuppliersViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\SuppliersViewModel.cs",
+              "RelativeDocumentMoniker": "Casablanca\\ViewModel\\SuppliersViewModel.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\ViewModel\\SuppliersViewModel.cs",
+              "RelativeToolTip": "Casablanca\\ViewModel\\SuppliersViewModel.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAjwDcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T18:37:52.638Z",
+              "WhenOpened": "2024-06-20T15:47:27.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UIColorsCheerful.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Themes\\UIColorsCheerful.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\Themes\\UIColorsCheerful.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Themes\\UIColorsCheerful.xaml",
-              "RelativeToolTip": "Casablanca\\Themes\\UIColorsCheerful.xaml",
+              "DocumentIndex": 6,
+              "Title": "SuppliersView.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\SuppliersView.xaml",
+              "RelativeDocumentMoniker": "Casablanca\\View\\SuppliersView.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\SuppliersView.xaml",
+              "RelativeToolTip": "Casablanca\\View\\SuppliersView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T18:19:48.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UIColorsLight.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Themes\\UIColorsLight.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\Themes\\UIColorsLight.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Themes\\UIColorsLight.xaml",
-              "RelativeToolTip": "Casablanca\\Themes\\UIColorsLight.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T11:33:42.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ButtonStyles.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Custom\\ButtonStyles.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\Custom\\ButtonStyles.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Custom\\ButtonStyles.xaml",
-              "RelativeToolTip": "Casablanca\\Custom\\ButtonStyles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T13:57:28.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UIColorsDark.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Themes\\UIColorsDark.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\Themes\\UIColorsDark.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Themes\\UIColorsDark.xaml",
-              "RelativeToolTip": "Casablanca\\Themes\\UIColorsDark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T11:32:36.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "BindablePasswordBox.xaml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Custom\\BindablePasswordBox.xaml",
-              "RelativeDocumentMoniker": "Casablanca\\Custom\\BindablePasswordBox.xaml",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Custom\\BindablePasswordBox.xaml",
-              "RelativeToolTip": "Casablanca\\Custom\\BindablePasswordBox.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T14:14:55.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Casablanca\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\App.xaml.cs",
-              "RelativeToolTip": "Casablanca\\App.xaml.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAnwB0AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T11:17:32.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "Casablanca\\View\\LoginView.xaml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\View\\LoginView.xaml.cs",
-              "RelativeToolTip": "Casablanca\\View\\LoginView.xaml.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAABBwCAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T13:38:25.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "LanguageManager.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Utils\\LanguageManager.cs",
-              "RelativeDocumentMoniker": "Casablanca\\Utils\\LanguageManager.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Utils\\LanguageManager.cs",
-              "RelativeToolTip": "Casablanca\\Utils\\LanguageManager.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAABBwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T11:33:52.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ChangeThemeControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Components\\ChangeThemeControl.xaml.cs",
-              "RelativeDocumentMoniker": "Casablanca\\Components\\ChangeThemeControl.xaml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Components\\ChangeThemeControl.xaml.cs",
-              "RelativeToolTip": "Casablanca\\Components\\ChangeThemeControl.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAmwCwAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T11:30:16.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AppTheme.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Utils\\AppTheme.cs",
-              "RelativeDocumentMoniker": "Casablanca\\Utils\\AppTheme.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Utils\\AppTheme.cs",
-              "RelativeToolTip": "Casablanca\\Utils\\AppTheme.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T11:15:14.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LanguageSelectionControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Components\\LanguageSelectionControl.xaml.cs",
-              "RelativeDocumentMoniker": "Casablanca\\Components\\LanguageSelectionControl.xaml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Components\\LanguageSelectionControl.xaml.cs",
-              "RelativeToolTip": "Casablanca\\Components\\LanguageSelectionControl.xaml.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAABBwBYAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T11:31:03.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Repository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Casablanca\\Repository\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Repository\\IUserRepository.cs",
-              "RelativeToolTip": "Casablanca\\Repository\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T11:32:31.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Language.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Resources\\Language.Designer.cs",
-              "RelativeDocumentMoniker": "Casablanca\\Resources\\Language.Designer.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\HCI\\Projekat1\\Casablanca\\Casablanca\\Resources\\Language.Designer.cs",
-              "RelativeToolTip": "Casablanca\\Resources\\Language.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T11:27:23.561Z",
+              "WhenOpened": "2024-06-20T15:47:24.36Z",
               "EditorCaption": ""
             }
           ]

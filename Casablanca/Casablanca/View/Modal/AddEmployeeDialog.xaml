@@ -1,0 +1,156 @@
+﻿<Window x:Class="Casablanca.View.Modal.AddEmployeeDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:custom="clr-namespace:Casablanca.Custom"
+        xmlns:viewModel="clr-namespace:Casablanca.ViewModel"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="Add Employee" Height="500" Width="400">
+
+   
+
+    <Window.DataContext>
+        <viewModel:AddEmployeeViewModel />
+    </Window.DataContext>
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibility"></BooleanToVisibilityConverter>
+    </Window.Resources>
+
+
+    <Window.Visibility>
+        <Binding Path="IsViewVisible" Mode="TwoWay" Converter="{StaticResource BooleanToVisibility}"/>
+    </Window.Visibility>
+
+    <Grid>
+        <StackPanel Margin="10"
+                    Background="{DynamicResource dominant1}">
+            <TextBlock Text="{DynamicResource firstName}"
+                       FontFamily="Montserrat"
+                       FontWeight="Medium"
+                       Foreground="{DynamicResource PrimaryTextBrush}"
+                       FontSize="12"
+                       Margin="0,10,0,5"/>
+            <TextBox x:Name="FirstNameTextBox"
+                     Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}"
+                     FontSize="13"
+                     FontWeight="Medium"
+                     FontFamily="Montserrat"
+
+                     Foreground="{DynamicResource PrimaryTextBrush}"
+                     BorderBrush="{DynamicResource BorderBrush}"
+                     BorderThickness="0,0,0,1"
+                     Height="28"
+                     VerticalContentAlignment="Center"
+                     Margin="0,5,0,0"
+                     Padding="20,0,0,0"/>       
+
+            <TextBlock Text="{DynamicResource lastName}"
+                       Foreground="{DynamicResource PrimaryTextBrush}"
+                       FontFamily="Montserrat"
+                       FontWeight="Medium"
+                       FontSize="12"
+                       Margin="0,10,0,5"/>
+             <TextBox x:Name="LastNameTextBox"
+                      Margin="0,0,0,10"
+                      Text="{Binding LastName, UpdateSourceTrigger=PropertyChanged}"
+                      FontSize="13"
+                      FontWeight="Medium"
+                      FontFamily="Montserrat"
+                     Foreground="{DynamicResource PrimaryTextBrush}"
+                      BorderBrush="{DynamicResource BorderBrush}"
+                      BorderThickness="0,0,0,1"
+                      Height="28"
+                      VerticalContentAlignment="Center"
+                      Padding="20,0,0,0"/>
+
+            <TextBlock Text="{DynamicResource salary}"  
+                       Foreground="{DynamicResource PrimaryTextBrush}"
+                       FontFamily="Montserrat"
+                       FontWeight="Medium"
+                       FontSize="12"
+                       Margin="0,0,0,5"/>
+            <TextBox x:Name="SalaryTextBox"
+                     
+                     Margin="0,0,0,10"
+                      Text="{Binding Salary, UpdateSourceTrigger=PropertyChanged}"
+                      FontSize="13"
+                      Foreground="{DynamicResource PrimaryTextBrush}"
+                      FontWeight="Medium"
+                      FontFamily="Montserrat"
+                      BorderBrush="{DynamicResource BorderBrush}"
+                      BorderThickness="0,0,0,1"
+                      Height="28"
+                      VerticalContentAlignment="Center"
+                      Padding="20,0,0,0"/>
+            
+            <TextBlock Text="{DynamicResource username}"
+                       FontFamily="Montserrat"
+                       Foreground="{DynamicResource PrimaryTextBrush}"
+                       FontWeight="Medium"
+                       FontSize="12"
+                       Margin="0,0,0,5"/>
+            
+            <TextBox x:Name="UsernameTextBox"
+                     Margin="0,0,0,10"
+                     Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                     FontSize="13"
+                     Foreground="{DynamicResource PrimaryTextBrush}"
+                     FontWeight="Medium"
+                     FontFamily="Montserrat"
+                     BorderBrush="{DynamicResource BorderBrush}"
+                     BorderThickness="0,0,0,1"
+                     Height="28"
+                     VerticalContentAlignment="Center"
+                     Padding="20,0,0,0"/>
+
+            <TextBlock Text="{DynamicResource password}"
+                        Foreground="{DynamicResource PrimaryTextBrush}"
+                        FontSize="12"
+                        FontWeight="Medium"
+                        FontFamily="Montserrat"
+                        Margin="0, 15, 0, 0"/>
+
+            <custom:BindablePasswordBox Password="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                            Height="28"
+                            Foreground="{DynamicResource PrimaryTextBrush}"
+                            Margin="0,5,0,0">
+            </custom:BindablePasswordBox>
+            
+            <TextBlock Text="{DynamicResource confirmPassword}"
+                        Foreground="{DynamicResource PrimaryTextBrush}"
+                        FontSize="12"
+                        FontWeight="Medium"
+                        FontFamily="Montserrat"
+                        Margin="0, 15, 0, 0"/>
+
+            <custom:BindablePasswordBox Password="{Binding ConfirmPassword, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                Height="28"
+                Foreground="{DynamicResource PrimaryTextBrush}"                                        
+                Margin="0,5,0,0">
+            </custom:BindablePasswordBox>
+
+            <TextBlock Text="{Binding ErrorMessage}"
+                       Foreground="#d10a0a"
+                       FontSize="12"
+                       FontWeight="Medium"
+                       FontFamily="Montserrat"
+                       Margin="0, 10, 0, 0"
+                       TextWrapping="Wrap"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Save"
+                        Command="{Binding SaveCommand}"
+                        Foreground="{DynamicResource PrimaryTextBrush}"
+                        Width="75"
+                        Margin="5"/>
+                <Button Content="Cancel"
+                        Background="{DynamicResource PrimaryButtonBackgroundBrush}"
+                        Foreground="{DynamicResource PrimaryTextBrush}"
+                        Width="75"
+                        Margin="5"
+                        Command="{Binding CancelCommand}"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

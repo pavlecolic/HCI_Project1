@@ -1,0 +1,39 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+
+    <sys:String x:Key="slogan">Vaši omiljeni filmovi na jednom mjestu.</sys:String>
+    <sys:String x:Key="username">Korisničko ime</sys:String>
+    <sys:String x:Key="password">Lozinka</sys:String>
+    <sys:String x:Key="logIn">PRIJAVI SE</sys:String>
+    <sys:String x:Key="employees">Zaposleni</sys:String>
+    <sys:String x:Key="suppliers">Dobavljači</sys:String>
+    <sys:String x:Key="invoices">Fakture</sys:String>
+    <sys:String x:Key="articles">Artikli</sys:String>
+    <sys:String x:Key="articleTypes">Tipovi artikala</sys:String>
+    <sys:String x:Key="badCredentialsMessage">* Pogrešno korisničko ime ili lozinka</sys:String>
+    <sys:String x:Key="settings">Podešavanja</sys:String>
+    <sys:String x:Key="firstName">Ime</sys:String>
+    <sys:String x:Key="lastName">Prezime</sys:String>
+    <sys:String x:Key="salary">Plata</sys:String>
+    <sys:String x:Key="save">Sačuvaj</sys:String>
+    <sys:String x:Key="cancel">Otkaži</sys:String>
+    <sys:String x:Key="confirmPassword">Ponovite lozinku</sys:String>
+    <sys:String x:Key="passwordsNotMatching">Lozinke se ne podudaraju</sys:String>
+    <sys:String x:Key="usernameExists">Korisničko ime zauzeto</sys:String>
+    <sys:String x:Key="add">Dodaj</sys:String>
+    <sys:String x:Key="edit">Izmeni</sys:String>
+    <sys:String x:Key="remove">Ukloni</sys:String>
+    <sys:String x:Key="name">Naziv</sys:String>
+    <sys:String x:Key="contact">Kontakt</sys:String>
+    <sys:String x:Key="addSupplier">Dodaj Proizvođača</sys:String>
+    <sys:String x:Key="supplierExists">* Proizvođač postoji</sys:String>
+
+
+
+
+
+
+
+
+</ResourceDictionary>

@@ -6,16 +6,12 @@
 		<Nullable>enable</Nullable>
 		<UseWPF>true</UseWPF>
 		<AppDesignerFolder>Resources</AppDesignerFolder>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="Images\colorful.png" />
-	</ItemGroup>
-
-
-
-	<ItemGroup>
 		<PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
+		<PackageReference Include="MahApps.Metro" Version="2.4.10" />
 		<PackageReference Include="MySql.Data" Version="8.4.0" />
 	</ItemGroup>
 

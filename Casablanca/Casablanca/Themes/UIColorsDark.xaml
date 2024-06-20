@@ -11,7 +11,7 @@
     <!-- Dark Gray -->
     <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#FF444444"/>
     <Color x:Key="SecondaryBackColor1">#000000</Color>
-    
+    <Color x:Key="SecondaryBackColor2">#808080</Color>
     <!-- Foreground Colors -->
     <SolidColorBrush x:Key="PrimaryTextBrush" Color="#FFFFFFFF"/>
     <SolidColorBrush x:Key="SecondaryTextBrush" Color="#FFCCCCCC"/>
@@ -101,5 +101,9 @@
     <!-- Light Medium Brown -->
     <SolidColorBrush x:Key="color31" Color="#FFC5CAE9"/>
     <!-- Light Medium Purple -->
+    <SolidColorBrush x:Key="tableColor" Color="#FF6A1B9A"/>
+
+    <SolidColorBrush x:Key="dominant1" Color="#000000"/>
+
 
 </ResourceDictionary>

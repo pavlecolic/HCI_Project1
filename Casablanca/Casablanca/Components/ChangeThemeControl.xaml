@@ -15,6 +15,11 @@
                     <Image Source="pack://application:,,,/Casablanca;component/Images/dark.png"/>
                 </StackPanel>
             </ComboBoxItem>
+            <ComboBoxItem Tag="co">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="pack://application:,,,/Casablanca;component/Images/colorful.png"/>
+                </StackPanel>
+            </ComboBoxItem>
         </ComboBox>
     </Grid>
 

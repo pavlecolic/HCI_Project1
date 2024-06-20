@@ -1,15 +1,10 @@
 ﻿using Casablanca.Model;
 using Casablanca.Model.Repository;
 using Casablanca.Repository;
-using Casablanca.View;
 using FontAwesome.Sharp;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Input;
 
 
@@ -43,6 +38,7 @@ namespace Casablanca.ViewModel
                 OnPropertyChange(nameof(CurrentChildView));
             }
         }
+
         public string Caption
         {
             get => _caption;
@@ -52,6 +48,7 @@ namespace Casablanca.ViewModel
                 OnPropertyChange(nameof(Caption));
             }
         }
+
         public IconChar Icon
         {
             get => _icon;
@@ -64,6 +61,11 @@ namespace Casablanca.ViewModel
 
         // Commands
         public ICommand ShowEmployeeViewCommand
+        {
+            get;
+        }
+
+        public ICommand ShowSupplierViewCommand
         {
             get;
         }
@@ -81,6 +83,7 @@ namespace Casablanca.ViewModel
 
             //Initialie commands
             ShowEmployeeViewCommand = new ViewModelCommand(ExecuteShowEmployeesViewCommand);
+            ShowSupplierViewCommand = new ViewModelCommand(ExecuteShowSuppliersViewCommand);
             ShowArticleViewCommand = new ViewModelCommand(ExecuteShowArticlesViewCommand);
 
             //Default View
@@ -89,18 +92,37 @@ namespace Casablanca.ViewModel
             LoadCurrentUserData();
         }
 
-        private void ExecuteShowArticlesViewCommand(object? obj)
-        {
-            CurrentChildView = new ArticlesViewModel();
-            Caption = "Articles";
-            Icon = IconChar.CompactDisc;
-        }
+       
 
         private void ExecuteShowEmployeesViewCommand(object? obj)
         {
             CurrentChildView = new EmployeesViewModel();
-            Caption = "Employees";
+            ResourceDictionary dictionary = Application.Current.Resources.MergedDictionaries[0];
+            string? name = dictionary["employees"] as string;
+            if (name != null)
+                Caption = name;
             Icon = IconChar.Users;
+        }
+
+        private void ExecuteShowSuppliersViewCommand(object? obj)
+        {
+            CurrentChildView = new SuppliersViewModel();
+            ResourceDictionary dictionary = Application.Current.Resources.MergedDictionaries[0];
+            string? name = dictionary["suppliers"] as string;
+            if (name != null)
+                Caption = name;
+            Icon = IconChar.TruckField;
+        }
+
+        private void ExecuteShowArticlesViewCommand(object? obj)
+        {
+            CurrentChildView = new ArticlesViewModel();
+
+            ResourceDictionary dictionary = Application.Current.Resources.MergedDictionaries[0];
+            string? name = dictionary["articles"] as string;
+            if (name != null)
+                Caption = name;
+            Icon = IconChar.CompactDisc;
         }
 
 
@@ -112,7 +134,6 @@ namespace Casablanca.ViewModel
                 CurrentUserAccount.Username = user.username;
                 CurrentUserAccount.DisplayName = $"{user.firstName} {user.lastName}";
             } 
-
         }
     }
 }

@@ -39,6 +39,9 @@ namespace Casablanca.Components
                     case "li":
                         AppTheme.ChangeTheme(new Uri("Themes/UIColorsLight.xaml", UriKind.Relative));
                         break;
+                    case "co":
+                        AppTheme.ChangeTheme(new Uri("Themes/UIColorsCheerful.xaml", UriKind.Relative));
+                        break;
                     default:
                         AppTheme.ChangeTheme(new Uri("Themes/UIColorsLight.xaml", UriKind.Relative));
                         break;

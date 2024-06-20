@@ -9,6 +9,7 @@ using System.Windows.Input;
 using Casablanca.Repository;
 using System.Threading;
 using System.Security.Principal;
+using System.Windows;
 
 namespace Casablanca.ViewModel
 {
@@ -49,7 +50,8 @@ namespace Casablanca.ViewModel
             }
             else
             {
-                ErrorMessage = "* Invalid username or password";
+                ResourceDictionary dictionary = Application.Current.Resources.MergedDictionaries[0];
+                ErrorMessage = dictionary["badCredentialsMessage"] as string;
             }
         }
 

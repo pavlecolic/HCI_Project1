@@ -108,7 +108,8 @@
     <SolidColorBrush x:Key="color31" Color="#FFC5CAE9"/>
     <!-- Light Medium Purple -->
 
-
+    <SolidColorBrush x:Key="tableColor" Color="#FFFFFFFF"/>
+    <SolidColorBrush x:Key="dominant1" Color="#FFFFFF"/>
 
 
 </ResourceDictionary>

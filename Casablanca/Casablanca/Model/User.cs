@@ -10,16 +10,18 @@ namespace Casablanca.Model
     {
     
         private int Id { get; }
-        public string password { get; set; }
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public string theme { get; set; }
-        public string language { get; set; }
-        public double salary { get; set; }
+        public string? password { get; set; }
+        public string? firstName { get; set; }
+        public string? lastName { get; set; }
+        public string? theme { get; set; }
+        public string? language { get; set; }
+        public double? salary { get; set; }
         public string username { get; set; }
-        private bool isAdmin { get; }
+        public bool isAdmin { get; }
 
-        public User() { }
+        public User() 
+        {
+        }
 
         public User(int id, string username, string password, string firstName, string lastName, string theme, string language, double salary, bool isAdmin)
         {
@@ -34,15 +36,42 @@ namespace Casablanca.Model
             this.isAdmin = isAdmin;
         }
 
-        public override bool Equals(object? obj)
+        public User(string username, string firstName, string lastName, double salary, bool isAdmin)
         {
-            return obj is User user  &&
-               user.Id == Id;
+            this.username = username; 
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.salary = salary;
+            this.isAdmin = isAdmin;
+            this.language = "en";
+            this.theme = "li";
+        }
+        // Add employee constructor
+        public User(string username, string password, string firstName, string lastName, double salary)
+        {
+            this.username = username;
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.salary = salary;
+            this.isAdmin = false;
+            this.password = password;
+            this.language = "en";
+            this.theme = "li";
+        }
+
+
+        public override bool Equals(object obj)
+        {
+            if (obj is User user)
+            {
+                return username == user.username; // Assuming username is unique
+            }
+            return false;
         }
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(Id);
+            return username.GetHashCode();
         }
     }
 }

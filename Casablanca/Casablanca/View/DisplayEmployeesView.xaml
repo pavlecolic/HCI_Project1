@@ -4,9 +4,65 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Casablanca.View"
+             xmlns:viewModel="clr-namespace:Casablanca.ViewModel"
+             xmlns:utils="clr-namespace:Casablanca.Utils"
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+    
+    
+    <UserControl.DataContext>
+        <viewModel:EmployeesViewModel />
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Custom/DataGridStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <utils:NullToBooleanConverter x:Key="NullToBooleanConverter" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+    <StackPanel>
             
-    </Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+            <Button Content="{DynamicResource add}"
+                    Command="{Binding AddCommand}"
+                    Background="{DynamicResource color7}"
+                    Margin="5"/>
+            
+            <Button Content="{DynamicResource edit}"
+                    Command="{Binding EditCommand}"
+                    Background="{DynamicResource color6}"
+                    CommandParameter="{Binding SelectedEmployee}"
+                    Margin="5"
+                    IsEnabled="{Binding SelectedEmployee, Converter={StaticResource NullToBooleanConverter}}"/>
+            
+            <Button Content="{DynamicResource remove}"
+                    Command="{Binding RemoveCommand}"
+                    Background="{DynamicResource color8}"
+                    CommandParameter="{Binding SelectedEmployee}"
+                    Margin="5"
+                    IsEnabled="{Binding SelectedEmployee, Converter={StaticResource NullToBooleanConverter}}"/>
+        </StackPanel>
+
+
+        <DataGrid x:Name="User"
+                    AutoGenerateColumns="False"
+                    AlternatingRowBackground="{DynamicResource color1}"
+                    ItemsSource="{Binding Employees}"
+                    SelectedItem="{Binding SelectedEmployee}"
+                    Style="{StaticResource MetroDataGrid}">
+            
+            <DataGrid.Columns>
+                    <DataGridTextColumn Header="{DynamicResource firstName}" Binding="{Binding firstName}"  Width="*"/>
+                    <DataGridTextColumn Header="{DynamicResource lastName}" Binding="{Binding lastName}" Width="*"/>
+                    <DataGridTextColumn Header="{DynamicResource salary}" Binding="{Binding salary, StringFormat=C}" Width="*"/>
+                    <DataGridTextColumn Header="{DynamicResource username}" Binding="{Binding username}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+
 </UserControl>

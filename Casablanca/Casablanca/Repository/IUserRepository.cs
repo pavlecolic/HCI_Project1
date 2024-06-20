@@ -11,12 +11,13 @@ namespace Casablanca.Model.Repository
     {
 
         bool AuthenticateUser(NetworkCredential credential);
-        void Add(User user);
+        bool Add(User user);
         void Edit(User user);
         void Remove(User user);
         User GetById(int id);
         User GetByUsername(string username);
         IEnumerable<User> GetAll();
+        IEnumerable<User> GetAllEmployees();
 
     }
 }

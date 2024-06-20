@@ -159,14 +159,14 @@
                                FontWeight="Medium"
                                FontFamily="Montserrat"
                                HorizontalAlignment="Center"/>
-                    <TextBlock Text="{DynamicResource Slogan}"
+                    <TextBlock Text="{DynamicResource slogan}"
                                Foreground="BLACK"
                                FontSize="12"
                                FontWeight="Medium"
                                FontFamily="Montserrat"
                                HorizontalAlignment="Center"
                                />
-                    <TextBlock Text="Username"
+                    <TextBlock Text="{DynamicResource username}"
                             Foreground="Black"
                             FontSize="12"
                             FontWeight="Medium"
@@ -195,7 +195,7 @@
                     </TextBox>
 
 
-                    <TextBlock Text="{x:Static p:Language.Password}"
+                    <TextBlock Text="{DynamicResource password}"
                             Foreground="Black"
                             FontSize="12"
                             FontWeight="Medium"
@@ -218,7 +218,7 @@
                         <Button x:Name="btnLogin"
                             Command="{Binding LoginCommand}"
                             BorderThickness="0"
-                            Content="{x:Static p:Language.LogIn}"
+                            Content="{DynamicResource logIn}"
                             Foreground="White"
                             FontSize="16"
                             FontFamily="Montserrat"

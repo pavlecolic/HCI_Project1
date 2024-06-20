@@ -1,0 +1,91 @@
+﻿<Window x:Class="Casablanca.View.Modal.AddSupplierDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:custom="clr-namespace:Casablanca.Custom"
+        xmlns:viewModel="clr-namespace:Casablanca.ViewModel"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="{DynamicResource addSupplier}" Height="250" Width="400">
+
+
+
+    <Window.DataContext>
+        <viewModel:AddSupplierViewModel />
+    </Window.DataContext>
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibility"></BooleanToVisibilityConverter>
+    </Window.Resources>
+
+
+    <Window.Visibility>
+        <Binding Path="IsViewVisible" Mode="TwoWay" Converter="{StaticResource BooleanToVisibility}"/>
+    </Window.Visibility>
+
+    <Grid>
+        <StackPanel Margin="10"
+                    Background="{DynamicResource dominant1}">
+            <TextBlock Text="{DynamicResource name}"
+                       FontFamily="Montserrat"
+                       FontWeight="Medium"
+                       Foreground="{DynamicResource PrimaryTextBrush}"
+                       FontSize="12"
+                       Margin="0,10,0,5"/>
+            <TextBox x:Name="NameTextBox"
+                     Text="{Binding SupplierName, UpdateSourceTrigger=PropertyChanged}"
+                     FontSize="13"
+                     FontWeight="Medium"
+                     FontFamily="Montserrat"
+
+                     Foreground="{DynamicResource PrimaryTextBrush}"
+                     BorderBrush="{DynamicResource BorderBrush}"
+                     BorderThickness="0,0,0,1"
+                     Height="28"
+                     VerticalContentAlignment="Center"
+                     Margin="0,5,0,0"
+                     Padding="20,0,0,0"/>
+
+            <TextBlock Text="{DynamicResource contact}"
+                       Foreground="{DynamicResource PrimaryTextBrush}"
+                       FontFamily="Montserrat"
+                       FontWeight="Medium"
+                       FontSize="12"
+                       Margin="0,10,0,5"/>
+            <TextBox x:Name="ContactTextBox"
+                      Margin="0,0,0,10"
+                      Text="{Binding SupplierContact, UpdateSourceTrigger=PropertyChanged}"
+                      FontSize="13"
+                      FontWeight="Medium"
+                      FontFamily="Montserrat"
+                     Foreground="{DynamicResource PrimaryTextBrush}"
+                      BorderBrush="{DynamicResource BorderBrush}"
+                      BorderThickness="0,0,0,1"
+                      Height="28"
+                      VerticalContentAlignment="Center"
+                      Padding="20,0,0,0"/>
+
+
+            <TextBlock Text="{Binding ErrorMessage}"
+                       Foreground="#d10a0a"
+                       FontSize="12"
+                       FontWeight="Medium"
+                       FontFamily="Montserrat"
+                       Margin="0, 10, 0, 0"
+                       TextWrapping="Wrap"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Save"
+                        Command="{Binding SaveCommand}"
+                        Foreground="{DynamicResource PrimaryTextBrush}"
+                        Width="75"
+                        Margin="5"/>
+                <Button Content="Cancel"
+                        Background="{DynamicResource PrimaryButtonBackgroundBrush}"
+                        Foreground="{DynamicResource PrimaryTextBrush}"
+                        Width="75"
+                        Margin="5"
+                        Command="{Binding CancelCommand}"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

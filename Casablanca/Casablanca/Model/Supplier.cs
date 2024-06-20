@@ -9,26 +9,36 @@ namespace Casablanca.Model
     public class Supplier
     {
 
-        private int Id { get; }
-        private string Name { get; set; }
-        private string Contact { get; set; }
+        public int Id { get; }
+        public string Name { get; set; }
+        public string Contact { get; set; }
+
+        public Supplier()
+        {
+        }
 
         public Supplier(int id, string name, string contact)
         {
             Id = id;
-            Name = name;
-            Contact = contact;
+            this.Name = name;
+            this.Contact = contact;
+        }
+
+        public Supplier(string name, string contact)
+        {
+            this.Name = name;
+            this.Contact = contact;
         }
 
         public override bool Equals(object? obj)
         {
             return obj is Supplier supplier &&
-                   Id == supplier.Id;
+                   Name == supplier.Name;
         }
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(Id);
+            return Name.GetHashCode();
         }
     }
 }
