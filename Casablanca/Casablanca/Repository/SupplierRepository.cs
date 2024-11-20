@@ -1,4 +1,5 @@
 ﻿using Casablanca.Model;
+using Casablanca.Repository.RepoInterfaces;
 using Microsoft.VisualBasic.ApplicationServices;
 using MySql.Data.MySqlClient;
 using System;
@@ -21,7 +22,7 @@ namespace Casablanca.Repository
                 {
                     conn.Open();
 
-                    string checkQuery = "SELECT COUNT(*) FROM `supplier` WHERE name = @Name";
+                    string checkQuery = "SELECT COUNT(*) FROM `city` WHERE name = @Name";
                     using (var checkCmd = new MySqlCommand(checkQuery, conn))
                     {
                         checkCmd.Parameters.AddWithValue("@Name", Supplier.Name);
@@ -82,8 +83,30 @@ namespace Casablanca.Repository
 
         public Supplier GetById(int id)
         {
-            throw new NotImplementedException();
+            Supplier supplier = null;
+            using (var connection = GetConnection())
+            using (var command = new MySqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = "SELECT * FROM `supplier` WHERE id = @Id";
+                command.Parameters.AddWithValue("@Id", id);
+
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        supplier = new Supplier(
+                            id: reader.GetInt32("id"),
+                            name: reader.GetString("name"),
+                            contact: reader.GetString("contact")
+                        );
+                    }
+                }
+            }
+            return supplier;
         }
+
 
         public Supplier GetByName(string name)
         {

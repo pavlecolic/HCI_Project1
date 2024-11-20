@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\App.xaml
-20275891685
+33799396180
 
-49587476428
+93-525871664
 219-1558435916
-Components\ChangeThemeControl.xaml;Components\EmployeeDetailsView.xaml;Components\LanguageSelectionControl.xaml;Custom\BindablePasswordBox.xaml;Custom\ButtonStyles.xaml;Custom\DataGridStyle.xaml;Custom\TableStyles.xaml;Resources\Strings.en.xaml;Resources\Strings.sr.xaml;Themes\UIColorsCheerful.xaml;Themes\UIColorsDark.xaml;Themes\UIColorsLight.xaml;View\AdminMainView.xaml;View\DisplayArticlesView.xaml;View\DisplayEmployeesView.xaml;View\EmployeeMainView.xaml;View\LoginView.xaml;View\Modal\AddEmployeeDialog.xaml;View\Modal\AddSupplierDialog.xaml;View\SuppliersView.xaml;
+Components\ChangeThemeControl.xaml;Components\EmployeeDetailsView.xaml;Components\LanguageSelectionControl.xaml;Components\SearchBox.xaml;Custom\BindablePasswordBox.xaml;Custom\ButtonStyles.xaml;Custom\DataGridStyle.xaml;Custom\TableStyles.xaml;Resources\Strings.en.xaml;Resources\Strings.sr.xaml;Themes\UIColorsCheerful.xaml;Themes\UIColorsDark.xaml;Themes\UIColorsLight.xaml;View\AdminMainView.xaml;View\ArticleTypeView.xaml;View\CitiesView.xaml;View\DisplayArticlesView.xaml;View\DisplayEmployeesView.xaml;View\LoginView.xaml;View\Modal\AddArticleDialog.xaml;View\Modal\AddArticleTypeDialog.xaml;View\Modal\AddCityDialog.xaml;View\Modal\AddCustomerDialog.xaml;View\Modal\AddEmployeeDialog.xaml;View\Modal\AddSupplierDialog.xaml;View\SettingsView.xaml;View\SuppliersView.xaml;View\UserView\ArticlesEmployeeView.xaml;View\UserView\CustomersView.xaml;View\UserView\DisplayArticleDetails.xaml;View\UserView\EmployeeMainView.xaml;View\UserView\NewRental.xaml;View\UserView\RentalsView.xaml;
 
 False
 

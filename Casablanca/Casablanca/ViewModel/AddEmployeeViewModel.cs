@@ -1,5 +1,4 @@
-﻿using Casablanca.Model.Repository;
-using Casablanca.Repository;
+﻿using Casablanca.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +12,7 @@ using System.Windows.Input;
 using Casablanca.Utils;
 using Casablanca.Model;
 using System.Windows.Controls.Primitives;
+using Casablanca.Repository.RepoInterfaces;
 
 namespace Casablanca.ViewModel
 {
@@ -79,7 +79,9 @@ namespace Casablanca.ViewModel
 
         public string ErrorMessage
         {
-            get => _errorMessage; set
+            get => _errorMessage;
+
+            set
             {
                 _errorMessage = value; OnPropertyChange(nameof(ErrorMessage));
             }

@@ -8,9 +8,10 @@ namespace Casablanca.Model
 {
     public class RentedArticle
     {
-        private Article Article;
-        private Rental Rental;
-        private double Price;
+        public Article Article;
+        public Rental Rental;
+        public double Price;
+
 
 
     }

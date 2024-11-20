@@ -8,18 +8,31 @@ namespace Casablanca.Model
 {
     public class Customer
     {
-        private int Id { get; }
-        private string FirstName { get; set; }
-        private string LastName { get; set; }
-        private string JMB { get; set; }
-        private Address Address { get; set; }
-        private string Phone { get; set; }
-        private List<Rental> rentals { get; set; }
+        public int Id {
+            get; 
+        }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string JMB { get; set; }
+        public Address Address { get; set; }
+        public string Phone { get; set; }
+        public List<Rental> rentals { get; set; }
 
 
         public Customer(int id, string firstName, string lastName, string jMB, Address address, string phone)
         {
             Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            JMB = jMB;
+            Address = address;
+            Phone = phone;
+            rentals = new List<Rental>();
+        }
+
+
+        public Customer(string firstName, string lastName, string jMB, Address address, string phone)
+        {
             FirstName = firstName;
             LastName = lastName;
             JMB = jMB;

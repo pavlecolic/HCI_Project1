@@ -4,9 +4,64 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Casablanca.View"
+             xmlns:viewModel="clr-namespace:Casablanca.ViewModel"
+             xmlns:utils="clr-namespace:Casablanca.Utils"
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+    
+
+    <StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="10" VerticalAlignment="Top">
+            <!-- Icon -->
+            <fa:IconBlock Icon="Search" Foreground="Gray" Width="20" Height="20" Margin="5,0" DockPanel.Dock="Left"/>
+
+            <!-- TextBox for search -->
+            <TextBox Width="260" Padding="30,5,10,5" Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}">
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Foreground" Value="Gray"/>
+                        <Setter Property="FontSize" Value="14"/>
+                        <Setter Property="BorderBrush" Value="Gray"/>
+                        <Setter Property="BorderThickness" Value="1"/>
+                        <Setter Property="Background" Value="#FFF"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" Value="DarkGray"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+
+            <ComboBox Width="100" Margin="0,0,10,0" ItemsSource="{Binding Categories}"
+                      DisplayMemberPath="TypeName" SelectedItem="{Binding SelectedCategory}"
+                      />
+
+            <CheckBox Content="Rented" IsChecked="{Binding IsRentedFilter}" />
+        </StackPanel>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <ItemsControl x:Name="ArticlesList" ItemsSource="{Binding FilteredArticles}">            
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="10" Padding="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="5">
+                            <StackPanel Width="150" HorizontalAlignment="Center">
+                                <Image Source="{Binding ImageURL}" Width="100" Height="100" Margin="0,0,0,10"/>
+                                <TextBlock Text="{Binding Name}" FontWeight="Bold" TextAlignment="Center" Foreground="{DynamicResource PrimaryTextBrush}"/>
+                                <TextBlock Text="{Binding Price, StringFormat=C}" TextAlignment="Center" Foreground="{DynamicResource PrimaryTextBrush}" />
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </ScrollViewer>
+    </StackPanel>
 </UserControl>

@@ -8,13 +8,15 @@ namespace Casablanca.Model
 {
     public class Address
     {
-        private string Id { get; }
-        private string Name { get; set; }
-        private int Number { get; set; }
-        private City City { get; set; }
-        private List<Customer> customers { get; set; }
+        public int Id {
+            get; set;
+        }
+        public string Name { get; set; }
+        public int Number { get; set; }
+        public City City { get; set; }
+        public List<Customer> customers { get; set; }
 
-        public Address(string id, string name, int number, City city)
+        public Address(int id, string name, int number, City city)
         {
             Id = id;
             Name = name;
@@ -22,6 +24,14 @@ namespace Casablanca.Model
             City = city;
             customers = new List<Customer>();
         }
+
+        public Address(string name, int number)
+        {
+            Name = name;
+            Number = number;
+            City = new City(1, "Banja Luka", "78000");
+        }
+
 
         public override bool Equals(object? obj)
         {

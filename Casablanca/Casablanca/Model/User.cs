@@ -9,7 +9,7 @@ namespace Casablanca.Model
     public class User
     {
     
-        private int Id { get; }
+        public int Id { get; }
         public string? password { get; set; }
         public string? firstName { get; set; }
         public string? lastName { get; set; }

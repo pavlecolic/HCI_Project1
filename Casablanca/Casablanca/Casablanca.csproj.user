@@ -16,7 +16,28 @@
     <Compile Update="Components\LanguageSelectionControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Components\SearchBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Custom\BindablePasswordBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ArticleTypeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CitiesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Modal\AddArticleDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Modal\AddArticleTypeDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Modal\AddCityDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Modal\AddCustomerDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\Modal\AddEmployeeDialog.xaml.cs">
@@ -31,16 +52,34 @@
     <Compile Update="View\DIsplayEmployeesView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\EmployeeMainView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="View\LoginView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\Modal\AddSupplierDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\SettingsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\SuppliersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserView\ArticlesEmployeeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserView\CustomersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserView\DisplayArticleDetails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserView\EmployeeMainView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserView\NewRental.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserView\RentalsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -60,6 +99,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Components\LanguageSelectionControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\SearchBox.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Custom\BindablePasswordBox.xaml">
@@ -89,6 +131,24 @@
     <Page Update="Themes\UIColorsCheerful.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\ArticleTypeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CitiesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modal\AddArticleDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modal\AddArticleTypeDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modal\AddCityDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modal\AddCustomerDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\Modal\AddEmployeeDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -101,16 +161,34 @@
     <Page Update="View\DisplayEmployeesView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\EmployeeMainView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="View\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Modal\AddSupplierDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\SettingsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\SuppliersView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UserView\ArticlesEmployeeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UserView\CustomersView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UserView\DisplayArticleDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UserView\EmployeeMainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UserView\NewRental.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UserView\RentalsView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

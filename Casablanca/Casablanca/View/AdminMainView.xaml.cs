@@ -28,8 +28,6 @@ namespace Casablanca.View
             InitializeComponent();
         }
 
-        
-
         private void Employee_Click(object sender, RoutedEventArgs e)
         {
 
@@ -75,6 +73,9 @@ namespace Casablanca.View
 
         }
 
-       
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

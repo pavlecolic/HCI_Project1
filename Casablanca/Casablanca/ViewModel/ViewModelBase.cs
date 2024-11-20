@@ -21,6 +21,4 @@ namespace Casablanca.ViewModel
             OnPropertyChange(string.Empty);
         }
     }
-
-   
 }

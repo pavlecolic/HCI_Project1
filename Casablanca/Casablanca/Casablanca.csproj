@@ -10,6 +10,15 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove="Images\Articles\gladiator2.jpg" />
+	  <None Remove="Images\Articles\lotr1.jpg" />
+	  <None Remove="Images\Articles\lotr2.jpg" />
+	  <None Remove="Images\Articles\lotr3.jpg" />
+	  <None Remove="Images\Articles\silence_of_the_lambs.jpg" />
+	  <None Remove="Images\Articles\the_batman.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
 		<PackageReference Include="MahApps.Metro" Version="2.4.10" />
 		<PackageReference Include="MySql.Data" Version="8.4.0" />
@@ -17,6 +26,21 @@
 
 	<ItemGroup>
 		<!-- Ensure the resource paths are correct -->
+		<Resource Include="Images\Articles\gladiator2.jpg">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\Articles\lotr1.jpg">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\Articles\lotr2.jpg">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\Articles\lotr3.jpg">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\Articles\the_batman.jpg">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
 		<Resource Include="Images\back-image.jpg" />
 		<Resource Include="Images\colorful.png" />
 		<Resource Include="Images\dark.png" />
@@ -38,6 +62,12 @@
 		<EmbeddedResource Update="Resources\Language.sr.resx">
 			<Generator>PublicResXFileCodeGenerator</Generator>
 		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Images\Articles\silenceof_the_lambs.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 
 </Project>

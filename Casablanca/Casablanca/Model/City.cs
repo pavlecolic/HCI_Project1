@@ -8,11 +8,29 @@ namespace Casablanca.Model
 {
     public class City
     {
-        private int Id { get; }
-        private string Name { get; set; }
-        private string PostalCode { get; set; }
-        
-        private List<Address> CityAddresses { get; set; }
+        public int Id { get; }
+        public string Name { get; set; }
+        public string PostalCode { get; set; }
+
+        public List<Address> CityAddresses { get; set; }
+
+        public City()
+        {
+        }
+
+        public City(string name, string postalCode)
+        {
+            Name = name;
+            PostalCode = postalCode;
+        }
+
+        public City(int id, string name, string postalCode)
+        {
+            Id = id;
+            this.Name = name;
+            PostalCode = postalCode;
+        }
+
 
         public City(int id, string name, string postalCode, List<Address> cityAddresses)
         {

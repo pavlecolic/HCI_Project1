@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Casablanca.View"
         xmlns:p="clr-namespace:Casablanca.Resources;assembly=Casablanca"
-        xmlns:viewModel="clr-namespace:Casablanca.ViewModel" xmlns:component="clr-namespace:Casablanca.Components"
+        xmlns:viewModel="clr-namespace:Casablanca.ViewModel"
+        xmlns:component="clr-namespace:Casablanca.Components"
         mc:Ignorable="d"
         Title="AdminMainView" Height="700" Width="1300"
         WindowStartupLocation="CenterScreen"
@@ -29,6 +30,19 @@
         <DataTemplate DataType="{x:Type viewModel:SuppliersViewModel}">
             <local:SuppliersView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:CitiesViewModel}">
+            <local:CitiesView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:ArticlesViewModel}">
+            <local:DisplayArticlesView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:ArticleTypeViewModel}">
+            <local:ArticleTypeView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
+            <local:SettingsView/>
+        </DataTemplate>
+
     </Window.Resources>
 
 
@@ -85,7 +99,7 @@
 
                     <RadioButton Style="{StaticResource menuButton}"
                                  Tag="{DynamicResource color30}"
-                                 Command="{Binding ShowSupplierViewCommand}">
+                                 Command="{Binding ShowSupplierViewCommand}" Checked="RadioButton_Checked">
 
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="TruckField" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
@@ -94,11 +108,12 @@
                     </RadioButton>
 
                     <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{DynamicResource color13}">
+                                 Tag="{DynamicResource color13}"
+                                 Command="{Binding ShowCitiesViewCommand}">
 
                         <StackPanel Orientation="Horizontal">
-                            <fa:IconImage Icon="ParachuteBox" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
-                            <TextBlock Text="{DynamicResource invoices}" Style="{DynamicResource menuButtonText}"/>
+                            <fa:IconImage Icon="City" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
+                            <TextBlock Text="{DynamicResource cities}" Style="{DynamicResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
 
@@ -115,7 +130,8 @@
 
 
                     <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{DynamicResource color15}">
+                                 Tag="{DynamicResource color15}"
+                                 Command="{Binding ShowArticleTypeViewCommand}">
 
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="Font" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
@@ -124,17 +140,14 @@
                     </RadioButton>
 
                     <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{DynamicResource color15}">
+                                 Tag="{DynamicResource color15}"
+                                 Command="{Binding ShowSettingsViewCommand}">
 
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="Gears" Style="{DynamicResource menuButtonIcon}"></fa:IconImage>
                             <TextBlock Text="{DynamicResource settings}" Style="{DynamicResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
-
-
-
-
                 </StackPanel>
 
             </Border>
@@ -220,7 +233,8 @@
                                     Margin="0 0 10 0">
                             <Button Style="{DynamicResource iconButton}"
                                     Tag="{DynamicResource color10}"
-                                    Margin="5 0 0 0">
+                                    Margin="5 0 0 0"
+                                    Command="{Binding LogOutCommand}">
                                 <fa:IconImage Icon="ArrowDown" Style="{StaticResource iconButtonIcon}"/>
                             </Button>
 
@@ -248,7 +262,6 @@
                     <ContentControl Content="{Binding CurrentChildView}"
                                     Grid.Row="2"
                                     Margin="25"/>
-
                 </Grid>
             </Border>
         </Grid>

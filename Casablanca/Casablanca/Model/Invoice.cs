@@ -9,11 +9,11 @@ namespace Casablanca.Model
     public class Invoice
     {
 
-        private int Id { get; }
-        private double Price { get; }
-        private DateTime InvoiceDate { get; }
-        private User User { get; }
-        private Supplier Supplier { get; }
+        public int Id { get; }
+        public double Price { get; }
+        public DateTime InvoiceDate { get; }
+        public User User { get; }
+        public Supplier Supplier { get; }
 
         public Invoice(int id, double price, DateTime invoiceDate, User user, Supplier supplier)
         {
@@ -34,5 +34,11 @@ namespace Casablanca.Model
         {
             return HashCode.Combine(Id);
         }
+
+        public int getId()
+        {
+            return Id;
+        }
+
     }
 }

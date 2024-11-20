@@ -9,8 +9,8 @@ namespace Casablanca.Model
     public class ArticlePublisher
     {
 
-        private int Id { get; }
-        private string PublisherName { get; set; }
+        public int Id { get; }
+        public string PublisherName { get; set; }
 
         public ArticlePublisher(int id, string publisherName)
         {
@@ -28,5 +28,16 @@ namespace Casablanca.Model
         {
             return HashCode.Combine(Id);
         }
+
+        public int getId()
+        {
+        
+        return Id; }
+
+        public override string ToString()
+        {
+            return $"Publisher ID: {Id}, Name: {PublisherName}";
+        }
+
     }
 }

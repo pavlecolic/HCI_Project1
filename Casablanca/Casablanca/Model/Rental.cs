@@ -9,14 +9,27 @@ namespace Casablanca.Model
     public class Rental
     {
 
-        private int Id { get; }
-        private DateTime RentDate { get; }
-        private DateTime DueDate { get; }
-        private DateTime ReturnDate { get; }
-        private double Price { get; set; }
-        private Customer Customer { get; }
-        private List<RentedArticle> Articles { get; set; }
+        public int Id { get; }
+        public DateTime RentDate { get; }
+        public DateTime DueDate { get; }
+        public DateTime? ReturnDate {
+            get; set;
+        }
+        public double Price { get; set; }
+        public Customer Customer { get; }
+        public List<RentedArticle> Articles { get; set; }
 
+
+        public Rental(int id, DateTime rentDate, DateTime dueDate, DateTime? returnDate, double price, Customer customer, List<RentedArticle> rentedArticles)
+        {
+            Id = id;
+            RentDate = rentDate;
+            DueDate = dueDate;
+            ReturnDate = returnDate;
+            Price = price;
+            Customer = customer;
+            Articles = rentedArticles;
+        }
 
         public Rental(int id, DateTime rentDate, DateTime dueDate, double price, Customer customer, List<RentedArticle> rentedArticles)
         {

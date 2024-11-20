@@ -1,0 +1,50 @@
+﻿<Window x:Class="Casablanca.View.Modal.AddArticleDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Casablanca.View.Modal"
+        mc:Ignorable="d"
+        xmlns:viewModel="clr-namespace:Casablanca.ViewModel.EmployeeVM"
+        Title="Add Article" Height="450" Width="800">
+
+    <Window.DataContext>
+        <viewModel:AddArticleViewModel />
+    </Window.DataContext>
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibility"></BooleanToVisibilityConverter>
+    </Window.Resources>
+
+    <Window.Visibility>
+        <Binding Path="IsViewVisible" Mode="TwoWay" Converter="{StaticResource BooleanToVisibility}"/>
+    </Window.Visibility>
+
+
+    <StackPanel Margin="20" VerticalAlignment="Top">
+        <TextBlock Text="Article Name:" FontWeight="Bold" Margin="0,10,0,5"/>
+        <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
+
+        <TextBlock Text="Image:" FontWeight="Bold" Margin="0,10,0,5"/>
+        <StackPanel Orientation="Horizontal">
+            <TextBox Text="{Binding ImageURL, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Width="250"/>
+            <Button Content="Browse" Command="{Binding BrowseImageCommand}" Width="100" Margin="10,0,0,0"/>
+        </StackPanel>
+
+        <TextBlock Text="Price:" FontWeight="Bold" Margin="0,10,0,5"/>
+        <TextBox Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}" />
+
+        <TextBlock Text="Publisher:" FontWeight="Bold" Margin="0,10,0,5"/>
+        <ComboBox ItemsSource="{Binding Publishers}" SelectedItem="{Binding SelectedPublisher}" 
+                  DisplayMemberPath="PublisherName" />
+
+        <TextBlock Text="Type:" FontWeight="Bold" Margin="0,10,0,5"/>
+        <ComboBox ItemsSource="{Binding Types}" SelectedItem="{Binding SelectedType}" 
+                  DisplayMemberPath="TypeName" />
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Button Content="Save" Command="{Binding SaveCommand}" Margin="5"/>
+            <Button Content="Cancel" Command="{Binding CancelCommand}" Margin="5"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

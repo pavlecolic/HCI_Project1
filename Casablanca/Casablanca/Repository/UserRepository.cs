@@ -1,9 +1,13 @@
 ﻿using Casablanca.Model;
-using Casablanca.Model.Repository;
+using Casablanca.Repository.RepoInterfaces;
+using Casablanca.Utils;
+using ControlzEx.Theming;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Net;
+using System.Windows.Forms;
 
 namespace Casablanca.Repository
 {
@@ -153,8 +157,36 @@ namespace Casablanca.Repository
 
         public User GetById(int id)
         {
-            throw new NotImplementedException();
+            User user = null;
+            using (var connection = GetConnection())
+            using (var command = new MySqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = "SELECT * FROM `user` WHERE id = @Id";
+                command.Parameters.AddWithValue("@Id", id);
+
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        user = new User(
+                            id: reader.GetInt32("id"),
+                            username: reader.GetString("username"),
+                            password: reader.GetString("password"),
+                            firstName: reader.GetString("first_name"),
+                            lastName: reader.GetString("last_name"),
+                            theme: reader.IsDBNull("theme") ? "default" : reader.GetString("theme"),
+                            language: reader.IsDBNull("language") ? "en" : reader.GetString("language"),
+                            salary: reader.GetDouble("salary"),
+                            isAdmin: reader.GetBoolean("is_admin")
+                        );
+                    }
+                }
+            }
+            return user;
         }
+
 
         public User GetByUsername(string username)
         {
@@ -206,5 +238,75 @@ namespace Casablanca.Repository
                 Console.WriteLine(ex.Message);
             }
         }
+
+        public string GetUserRole(string username)
+        {
+            using (var connection = GetConnection())
+            {
+                connection.Open();
+                using (var command = new MySqlCommand("SELECT is_admin FROM `user` WHERE username = @Username", connection))
+                {
+                    command.Parameters.AddWithValue("@Username", username);
+                    var isAdmin = command.ExecuteScalar();
+
+                    if (isAdmin != null && Convert.ToInt32(isAdmin) == 1)
+                    {
+                        return "Admin"; 
+
+                    }
+                    else 
+                    {
+                        return "User"; 
+                    }
+                }
+            }
+        }
+
+
+        // TODO: implement if neccessarty 
+        public bool UsernameExists(string username)
+        {
+            using (var connection = GetConnection())
+            {
+                connection.Open();
+                using (var command = new MySqlCommand("SELECT username FROM `user` WHERE username = @Username", connection))
+                {
+                    command.Parameters.AddWithValue("@Username", username);
+                    var user = command.ExecuteScalar();
+                    if (user != null) 
+                    {
+                        return true;
+                    }
+                    return false;
+
+                }
+            }
+        }
+
+
+        public Uri GetUserTheme(string username)
+        {
+            using (var connection = GetConnection())
+            using (var command = new MySqlCommand("SELECT theme FROM `user` WHERE username=@username", connection))
+            {
+                connection.Open();
+                command.Parameters.AddWithValue("@username", username);
+                var selectedTheme = command.ExecuteScalar()?.ToString();
+
+                switch (selectedTheme)
+                {
+                    case "dk":
+                        return new Uri("Themes/UIColorsDark.xaml", UriKind.Relative);
+                    case "li":
+                        return new Uri("Themes/UIColorsLight.xaml", UriKind.Relative);
+                    case "co":
+                        return new Uri("Themes/UIColorsCheerful.xaml", UriKind.Relative);
+                    default:
+                        return new Uri("Themes/UIColorsDark.xaml", UriKind.Relative);
+                };
+            }
+        }
+
+
     }
 }

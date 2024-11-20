@@ -1,6 +1,6 @@
 ﻿using Casablanca.Model;
-using Casablanca.Model.Repository;
 using Casablanca.Repository;
+using Casablanca.Repository.RepoInterfaces;
 using Casablanca.Utils;
 using Mysqlx.Datatypes;
 using System;

@@ -4,8 +4,8 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Input;
 using Casablanca.Model;
-using Casablanca.Model.Repository;
 using Casablanca.Repository;
+using Casablanca.Repository.RepoInterfaces;
 using Casablanca.Utils;
 using Casablanca.View;
 using Casablanca.View.Modal;
@@ -86,7 +86,6 @@ namespace Casablanca.ViewModel
 
         private void EditEmployee(User employee)
         {
-            // da li preko modala??
 
             if (employee != null)
             {

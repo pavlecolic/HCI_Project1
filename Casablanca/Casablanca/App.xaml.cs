@@ -9,6 +9,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using Casablanca.View;
+using Casablanca.View.UserView;
+
 namespace Casablanca
 {
 
@@ -18,7 +20,6 @@ namespace Casablanca
         protected void ApplicationStart(object sender, StartupEventArgs e)
         {
 
-            // Set culture to French for demonstration purposes
             var culture = new CultureInfo("en-EN");
             Thread.CurrentThread.CurrentCulture = culture;
             Thread.CurrentThread.CurrentUICulture = culture;
@@ -29,9 +30,16 @@ namespace Casablanca
             {
                 if (loginView.IsVisible == false && loginView.IsLoaded)
                 {
-                    var mainView = new AdminMainView();
-                    mainView.Show();
-                    loginView.Close();
+                    if (Thread.CurrentPrincipal.IsInRole("Admin"))
+                    {
+                        var adminMainView = new AdminMainView();
+                        adminMainView.Show();
+                    }
+                    else if (Thread.CurrentPrincipal.IsInRole("User"))
+                    {
+                        var employeeMainView = new EmployeeMainView();
+                        employeeMainView.Show();
+                    }
                 }
             };
         }

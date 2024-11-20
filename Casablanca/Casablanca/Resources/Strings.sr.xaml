@@ -28,12 +28,21 @@
     <sys:String x:Key="contact">Kontakt</sys:String>
     <sys:String x:Key="addSupplier">Dodaj Proizvođača</sys:String>
     <sys:String x:Key="supplierExists">* Proizvođač postoji</sys:String>
-
-
-
-
-
-
+    <sys:String x:Key="cities">Gradovi</sys:String>
+    <sys:String x:Key="addCity">Kreiraj Grad</sys:String>
+    <sys:String x:Key="postalCode">Postanski broj</sys:String>
+    <sys:String x:Key="cityExists">Grad vec postoji</sys:String>
+    <sys:String x:Key="addArticleType">Novi tip artikla</sys:String>
+    <sys:String x:Key="customers">Musterije</sys:String>
+    <sys:String x:Key="address">Adresa</sys:String>
+    <sys:String x:Key="city">Grad</sys:String>
+    
+    <sys:String x:Key="jmb">JMB</sys:String>
+    <sys:String x:Key="phone">Telefon</sys:String>
+    <sys:String x:Key="viewRentals">Iznajmljivanja</sys:String>
+    <sys:String x:Key="invalidCustomer">Greska pri unosu musterije</sys:String>
+    <sys:String x:Key="newRental">Novo Iznajmljivanje</sys:String>
+    <sys:String x:Key="return">Vraceno</sys:String>
 
 
 </ResourceDictionary>

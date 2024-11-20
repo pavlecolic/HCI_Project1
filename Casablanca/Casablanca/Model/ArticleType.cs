@@ -9,8 +9,8 @@ namespace Casablanca.Model
     public class ArticleType
     {
 
-        private int Id { get; }
-        private string TypeName { get; set; }
+        public int Id { get; }
+        public string TypeName { get; set; }
 
         public ArticleType(int id, string typeName)
         {
@@ -18,6 +18,10 @@ namespace Casablanca.Model
             TypeName = typeName;
         }
 
+        public ArticleType(string typeName)
+        {
+            TypeName = typeName;
+        }
         public override bool Equals(object? obj)
         {
             return obj is ArticleType type &&
@@ -28,6 +32,17 @@ namespace Casablanca.Model
         {
             return HashCode.Combine(Id);
         }
+
+        public int getId()
+        {
+        return Id; 
+        }
+
+        public override string ToString()
+        {
+            return $"Type ID: {Id}, Name: {TypeName}";
+        }
+
     }
-    
+
 }

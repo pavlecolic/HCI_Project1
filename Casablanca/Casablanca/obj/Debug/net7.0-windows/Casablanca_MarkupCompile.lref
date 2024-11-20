@@ -1,13 +1,25 @@
 ﻿
 FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\App.xaml;;
 FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\Components\EmployeeDetailsView.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\Components\SearchBox.xaml;;
 FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\Custom\BindablePasswordBox.xaml;;
 FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\AdminMainView.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\ArticleTypeView.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\CitiesView.xaml;;
 FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\DisplayArticlesView.xaml;;
 FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\DisplayEmployeesView.xaml;;
-FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\EmployeeMainView.xaml;;
 FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\LoginView.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\Modal\AddArticleDialog.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\Modal\AddArticleTypeDialog.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\Modal\AddCityDialog.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\Modal\AddCustomerDialog.xaml;;
 FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\Modal\AddEmployeeDialog.xaml;;
 FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\Modal\AddSupplierDialog.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\SettingsView.xaml;;
 FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\SuppliersView.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\UserView\ArticlesEmployeeView.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\UserView\CustomersView.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\UserView\EmployeeMainView.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\UserView\NewRental.xaml;;
+FC:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\View\UserView\RentalsView.xaml;;
 

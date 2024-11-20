@@ -1,0 +1,128 @@
+﻿<UserControl x:Class="Casablanca.View.SettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Casablanca.View"
+             xmlns:viewModel="clr-namespace:Casablanca.ViewModel"
+             xmlns:utils="clr-namespace:Casablanca.Utils"
+             mc:Ignorable="d" 
+             
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.DataContext>
+        <viewModel:SettingsViewModel />
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="PrimaryBackgroundColor" Color="{DynamicResource PrimaryBackground}"/>
+        <SolidColorBrush x:Key="SecondaryBackgroundColor" Color="{DynamicResource SecondaryBackground}"/>
+        <SolidColorBrush x:Key="PrimaryTextColor" Color="{DynamicResource PrimaryText}"/>
+        <SolidColorBrush x:Key="ButtonBackgroundColor" Color="{DynamicResource ButtonBackground}"/>
+        <SolidColorBrush x:Key="ButtonHoverBackgroundColor" Color="{DynamicResource ButtonHoverBackground}"/>
+        <SolidColorBrush x:Key="ButtonForegroundColor" Color="{DynamicResource ButtonForeground}"/>
+
+        <Style TargetType="TextBox" x:Key="RoundedTextBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                      BorderBrush="{TemplateBinding BorderBrush}"
+                      BorderThickness="{TemplateBinding BorderThickness}"
+                      CornerRadius="5">
+                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Foreground" Value="{DynamicResource PrimaryTextBrush}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource PrimaryTextBrush}"/>
+            <Setter Property="Background" Value="{DynamicResource color31}"/>
+        </Style>
+
+        <Style TargetType="PasswordBox" x:Key="RoundedPasswordBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border Background="{TemplateBinding Background}"
+                BorderBrush="{TemplateBinding BorderBrush}"
+                BorderThickness="{TemplateBinding BorderThickness}"
+                CornerRadius="5">
+                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Foreground" Value="{DynamicResource PrimaryTextBrush}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource PrimaryTextBrush}"/>
+            <Setter Property="Background" Value="{DynamicResource color31}"/>
+        </Style>
+
+
+
+    </UserControl.Resources>
+
+    <Border Background="{StaticResource WindowBackgroundBrush}" Padding="20" CornerRadius="10">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
+
+            <!-- Header -->
+            <TextBlock Text="User Settings" FontSize="20" FontWeight="Bold"
+                       Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,20" TextAlignment="Center"/>
+
+            <!-- Username -->
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="Username" Foreground="{StaticResource PrimaryTextBrush}" Margin="5"/>
+                
+                <TextBox Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" Width="280" 
+                         Style="{StaticResource RoundedTextBox}"/>
+            </StackPanel>
+
+            <!-- Password -->
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="Password" Foreground="{StaticResource PrimaryTextBrush}" Margin="5"/>
+                <PasswordBox Width="280" 
+                            Style="{StaticResource RoundedPasswordBox}"/>
+            </StackPanel>
+
+            <!-- Potvrdi Password -->
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="Confirm Password" Foreground="{StaticResource PrimaryTextBrush}" Margin="5"/>
+                <PasswordBox Width="280" 
+                  Style="{StaticResource RoundedPasswordBox}"/>
+            </StackPanel>
+
+            <!-- First Name -->
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="First Name" Foreground="{StaticResource PrimaryTextBrush}" Margin="5"/>
+                <TextBox Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}" Width="280" 
+                         Style="{StaticResource RoundedTextBox}"/>
+            </StackPanel>
+
+            <!-- Last Name -->
+            <StackPanel Orientation="Vertical" Margin="0,0,0,20">
+                <TextBlock Text="Last Name" Foreground="{StaticResource PrimaryTextBrush}" Margin="5"/>
+                <TextBox Text="{Binding LastName, UpdateSourceTrigger=PropertyChanged}" Width="280" 
+                         Style="{StaticResource RoundedTextBox}"/>
+            </StackPanel>
+
+            <!-- Save Button -->
+            <Button Content="Save" Width="120" HorizontalAlignment="Center" Padding="8,4" FontWeight="Bold"
+                    Background="{StaticResource PrimaryButtonBackgroundBrush}" Foreground="{StaticResource color16}" 
+                    BorderBrush="{StaticResource color16}" BorderThickness="1"
+                    Command="{Binding SaveCommand}">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="{StaticResource PrimaryButtonBackgroundBrush}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="{StaticResource PrimaryButtonBackgroundHoverBrush}"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </StackPanel>
+    </Border>
+</UserControl>

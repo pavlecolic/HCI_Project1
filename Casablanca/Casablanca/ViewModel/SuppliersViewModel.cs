@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using Casablanca.Model;
 using Casablanca.Repository;
 using System.Windows.Input;
-using Casablanca.Model.Repository;
 using System.Collections.ObjectModel;
 using Casablanca.View.Modal;
+using Casablanca.Repository.RepoInterfaces;
 
 namespace Casablanca.ViewModel
 {
@@ -102,6 +102,5 @@ namespace Casablanca.ViewModel
         {
             return supplier != null;
         }
-
     }
 }

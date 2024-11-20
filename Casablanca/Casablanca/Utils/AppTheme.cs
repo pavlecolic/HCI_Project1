@@ -16,7 +16,6 @@ namespace Casablanca.Utils
                 Source = themeUri,
             };
 
-            // Find the existing theme dictionary, if any
             ResourceDictionary existingTheme = null;
             foreach (var dictionary in App.Current.Resources.MergedDictionaries)
             {
@@ -27,15 +26,12 @@ namespace Casablanca.Utils
                 }
             }
 
-            // Remove the existing theme dictionary if found
             if (existingTheme != null)
             {
                 App.Current.Resources.MergedDictionaries.Remove(existingTheme);
             }
 
-            // Add the new theme dictionary
             App.Current.Resources.MergedDictionaries.Add(theme);
-
         }
     }
 }

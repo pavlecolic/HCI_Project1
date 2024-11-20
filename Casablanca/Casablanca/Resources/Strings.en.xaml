@@ -28,6 +28,19 @@
     <sys:String x:Key="contact">Contact</sys:String>
     <sys:String x:Key="addSupplier">Add Supplier</sys:String>
     <sys:String x:Key="supplierExists">* Supplier Exists</sys:String>
-
+    <sys:String x:Key="cities">Cities</sys:String>
+    <sys:String x:Key="addCity">Add City</sys:String>
+    <sys:String x:Key="postalCode">Postal Code</sys:String>
+    <sys:String x:Key="cityExists">City already created</sys:String>
+    <sys:String x:Key="addArticleType">Add article type</sys:String>
+    <sys:String x:Key="customers">Customers</sys:String>
+    <sys:String x:Key="address">Addess</sys:String>
+    <sys:String x:Key="city">City</sys:String>
+    <sys:String x:Key="jmb">JMB</sys:String>
+    <sys:String x:Key="phone">Phone</sys:String>
+    <sys:String x:Key="viewRentals">Rentals</sys:String>
+    <sys:String x:Key="invalidCustomer">Invalid customer</sys:String>
+    <sys:String x:Key="newRental">New Rental</sys:String>
+    <sys:String x:Key="return">Returned</sys:String>
 
 </ResourceDictionary>

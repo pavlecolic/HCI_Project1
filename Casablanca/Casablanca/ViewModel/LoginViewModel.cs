@@ -1,5 +1,4 @@
-﻿using Casablanca.Model.Repository;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security;
@@ -10,6 +9,10 @@ using Casablanca.Repository;
 using System.Threading;
 using System.Security.Principal;
 using System.Windows;
+using Casablanca.View;
+using Casablanca.Repository.RepoInterfaces;
+using Casablanca.Utils;
+using Casablanca.View.UserView;
 
 namespace Casablanca.ViewModel
 {
@@ -20,6 +23,9 @@ namespace Casablanca.ViewModel
         private SecureString _password;
         private string _errorMessage;
         private bool _isViewVisible = true;
+        private bool _isAdminViewVisible = false;
+        private bool _isEmployeeViewVisible = false;
+
 
         private IUserRepository userRepository;
         //Properties
@@ -33,6 +39,7 @@ namespace Casablanca.ViewModel
         public ICommand? ShowPasswordCommand { get; }
         public ICommand? RememberPasswordCommand { get; }
 
+
         public LoginViewModel()
         {
             userRepository = new UserRepository();
@@ -44,9 +51,22 @@ namespace Casablanca.ViewModel
             var isValidUser = userRepository.AuthenticateUser(new System.Net.NetworkCredential(Username, Password));
             if (isValidUser)
             {
+                var userRole = userRepository.GetUserRole(Username);
+               
+
                 Thread.CurrentPrincipal = new GenericPrincipal(
-                    new GenericIdentity(Username), null);
+                    new GenericIdentity(Username), new[] {userRole});
+
+                var themeUri = userRepository.GetUserTheme(Username);
+               
+
                 IsViewVisible = false;
+
+                if (themeUri != null)
+                {
+                    AppTheme.ChangeTheme(themeUri);
+                }
+
             }
             else
             {
@@ -67,6 +87,20 @@ namespace Casablanca.ViewModel
             }
             return validData;
         }
+
+        private void ShowAdminView()
+        {
+            AdminMainView adminView = new AdminMainView();
+            adminView.Show();
+        }
+
+        private void ShowUserView()
+        {
+            EmployeeMainView employeeView = new EmployeeMainView();
+            employeeView.Show();
+
+        }
+
     }
 
 
