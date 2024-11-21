@@ -5,6 +5,7 @@ using Casablanca.Utils;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Security.Policy;
@@ -123,7 +124,7 @@ namespace Casablanca.ViewModel.EmployeeVM
                 MessageBox.Show("Please fill in all required fields.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-            Article article = new Article(Name, ImageURL, SelectedType, SelectedPublisher, false, false, Price);
+            Article article = new Article(Name, Path.GetFileName(ImageURL), SelectedType, SelectedPublisher, false, false, Price);
             System.Diagnostics.Debug.WriteLine(article);
 
             if (SaveArticle(article))

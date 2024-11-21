@@ -43,6 +43,8 @@
     <sys:String x:Key="invalidCustomer">Greska pri unosu musterije</sys:String>
     <sys:String x:Key="newRental">Novo Iznajmljivanje</sys:String>
     <sys:String x:Key="return">Vraceno</sys:String>
+    <sys:String x:Key="oldPassword">Trenutna lozinka</sys:String>
+    <sys:String x:Key="security">Sigurnost</sys:String>
 
 
 </ResourceDictionary>

@@ -20,6 +20,7 @@ namespace Casablanca.Repository.RepoInterfaces
         string GetUserRole(string username);
         IEnumerable<User> GetAll();
         IEnumerable<User> GetAllEmployees();
+        void ChangePassword(User user);
 
         bool UsernameExists(string username);
         Uri GetUserTheme(string username);

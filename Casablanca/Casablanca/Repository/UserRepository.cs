@@ -98,6 +98,27 @@ namespace Casablanca.Repository
             }
         }
 
+        public void ChangePassword(User user)
+        {
+
+            try
+            {
+                using (var conn = GetConnection())
+                using (var cmd = new MySqlCommand())
+                {
+                    conn.Open();
+                    cmd.Connection = conn;
+                    cmd.CommandText = "UPDATE `user` SET password = @Password WHERE username = @Username";
+                    cmd.Parameters.AddWithValue("@Password", user.password);
+                    cmd.Parameters.AddWithValue("@Username", user.username);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine("Password change failed in repo!s.");
+            }
+        }
         public IEnumerable<User> GetAll()
         {
             var Users = new List<User>();

@@ -24,27 +24,23 @@ namespace Casablanca.Repository
                 {
                     conn.Open();
 
-                    string checkQuery = "SELECT COUNT(*) FROM `article` WHERE id = @Id";
-                    using (var checkCmd = new MySqlCommand(checkQuery, conn))
-                    {
-                        checkCmd.Parameters.AddWithValue("@Id", article.getId());
-                        var articleExists = Convert.ToInt32(checkCmd.ExecuteScalar()) > 0;
-                        if (articleExists)
-                        {
-                            return false;
-                        }
-                    }
-                    string insertQuery = "INSERT INTO `article` (name, image, type_id, is_rented, price, publisher_id, invoice_id, is_for_sale) VALUES (@Name, @Image, @IsRented, @Price, @PublisherId, @InvoiceId, @IsForSale)";
+                    
+                    
+                    string insertQuery = "INSERT INTO `article` (name, image, type_id, is_rented, price, publisher_id, invoice_id, is_for_sale) VALUES (@Name, @Image, @TypeId, @IsRented, @Price, @PublisherId, @InvoiceId, @IsForSale)";
                     using (var cmd = new MySqlCommand(insertQuery, conn))
                     {
+                        String debug = article.Name + " " + article.ImageURL + " " + article.Type.getId() + "  " + article.Price + " " + article.Publisher.getId();
+                        System.Diagnostics.Debug.WriteLine("DEBUGFFF: " + debug);
+
+
                         cmd.Parameters.AddWithValue("@Name", article.Name);
-                        cmd.Parameters.AddWithValue("@Image", article.ImageURL);
-                        cmd.Parameters.AddWithValue("@ArticleType", article.Type.getId());
-                        cmd.Parameters.AddWithValue("@IsRented", article.IsRented);
+                        cmd.Parameters.AddWithValue("@Image", "/Images/Articles/" + article.ImageURL);
+                        cmd.Parameters.AddWithValue("@TypeId", article.Type.getId());
+                        cmd.Parameters.AddWithValue("@IsRented", 0);
                         cmd.Parameters.AddWithValue("@Price", article.Price);
                         cmd.Parameters.AddWithValue("@PublisherId", article.Publisher.getId());
                         cmd.Parameters.AddWithValue("@InvoiceId", 1);
-                        cmd.Parameters.AddWithValue("@IsForSale", article.IsForSale);
+                        cmd.Parameters.AddWithValue("@IsForSale", 0);
 
                         cmd.ExecuteNonQuery();
                     }
@@ -128,7 +124,35 @@ namespace Casablanca.Repository
 
         public void Remove(Article article)
         {
-            throw new NotImplementedException();
+            if (article == null)
+                throw new ArgumentNullException(nameof(article));
+
+            try
+            {
+                using (var conn = GetConnection())
+                {
+                    conn.Open();
+
+                    string deleteQuery = "DELETE FROM `article` WHERE `id` = @Id";
+
+                    using (var cmd = new MySqlCommand(deleteQuery, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Id", article.Id);
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        if (rowsAffected == 0)
+                        {
+                            throw new InvalidOperationException($"No article found with ID {article.Id}.");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Error while deleting article: {ex.Message}");
+                throw;
+            }
         }
+
     }
 }

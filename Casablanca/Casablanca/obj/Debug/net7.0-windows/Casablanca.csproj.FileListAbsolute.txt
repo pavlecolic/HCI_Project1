@@ -125,3 +125,5 @@ C:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\obj\Debug\net7.0-w
 C:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\obj\Debug\net7.0-windows\View\UserView\NewRental.baml
 C:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\obj\Debug\net7.0-windows\View\Modal\AddArticleDialog.g.cs
 C:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\obj\Debug\net7.0-windows\View\Modal\AddArticleDialog.baml
+C:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\obj\Debug\net7.0-windows\View\SecurityView.g.cs
+C:\Users\Korisnik\Desktop\HCI\Projekat1\Casablanca\Casablanca\obj\Debug\net7.0-windows\View\SecurityView.baml

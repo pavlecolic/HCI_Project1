@@ -58,6 +58,9 @@
     <Compile Update="View\Modal\AddSupplierDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\SecurityView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\SettingsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -165,6 +168,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Modal\AddSupplierDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SecurityView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\SettingsView.xaml">

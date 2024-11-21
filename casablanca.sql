@@ -62,9 +62,9 @@ DEFAULT CHARACTER SET = utf8mb3;
 
 
 -- -----------------------------------------------------
--- Table `casablanca`.`article type`
+-- Table `casablanca`.`article_type`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `casablanca`.`article type` (
+CREATE TABLE IF NOT EXISTS `casablanca`.`article_type` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `type_name` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`))
@@ -121,7 +121,7 @@ DEFAULT CHARACTER SET = utf8mb3;
 -- Table `casablanca`.`article`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `casablanca`.`article` (
-  `id` INT NOT NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(100) NOT NULL,
   `image` VARCHAR(100) NOT NULL,
   `type_id` INT NOT NULL,
@@ -136,7 +136,7 @@ CREATE TABLE IF NOT EXISTS `casablanca`.`article` (
   INDEX `fk_Article_Invoice1_idx` (`invoice_id` ASC) VISIBLE,
   CONSTRAINT `fk_Article_ArticleType`
     FOREIGN KEY (`type_id`)
-    REFERENCES `casablanca`.`article type` (`id`),
+    REFERENCES `casablanca`.`article_type` (`id`),
   CONSTRAINT `fk_Article_Invoice1`
     FOREIGN KEY (`invoice_id`)
     REFERENCES `casablanca`.`invoice` (`id`),
@@ -186,9 +186,9 @@ DEFAULT CHARACTER SET = utf8mb3;
 
 
 -- -----------------------------------------------------
--- Table `casablanca`.`rented article`
+-- Table `casablanca`.`rented_article`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `casablanca`.`rented article` (
+CREATE TABLE IF NOT EXISTS `casablanca`.`rented_article` (
   `article_id` INT NOT NULL,
   `rental_id` INT NOT NULL,
   `price` DECIMAL(5,2) NOT NULL,

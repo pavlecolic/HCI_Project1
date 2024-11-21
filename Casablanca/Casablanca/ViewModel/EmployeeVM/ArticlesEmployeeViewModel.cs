@@ -199,6 +199,7 @@ namespace Casablanca.ViewModel.EmployeeVM
         {
             if(SelectedArticle != null)
             {
+                FilteredArticles.Remove(SelectedArticle);
                 articleRepository.Remove(SelectedArticle);
             }
         }

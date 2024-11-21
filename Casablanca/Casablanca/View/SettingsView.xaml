@@ -41,27 +41,6 @@
             <Setter Property="Background" Value="{DynamicResource color31}"/>
         </Style>
 
-        <Style TargetType="PasswordBox" x:Key="RoundedPasswordBox">
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="PasswordBox">
-                        <Border Background="{TemplateBinding Background}"
-                BorderBrush="{TemplateBinding BorderBrush}"
-                BorderThickness="{TemplateBinding BorderThickness}"
-                CornerRadius="5">
-                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Setter Property="Padding" Value="5"/>
-            <Setter Property="Foreground" Value="{DynamicResource PrimaryTextBrush}"/>
-            <Setter Property="BorderBrush" Value="{DynamicResource PrimaryTextBrush}"/>
-            <Setter Property="Background" Value="{DynamicResource color31}"/>
-        </Style>
-
-
-
     </UserControl.Resources>
 
     <Border Background="{StaticResource WindowBackgroundBrush}" Padding="20" CornerRadius="10">
@@ -79,19 +58,7 @@
                          Style="{StaticResource RoundedTextBox}"/>
             </StackPanel>
 
-            <!-- Password -->
-            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
-                <TextBlock Text="Password" Foreground="{StaticResource PrimaryTextBrush}" Margin="5"/>
-                <PasswordBox Width="280" 
-                            Style="{StaticResource RoundedPasswordBox}"/>
-            </StackPanel>
-
-            <!-- Potvrdi Password -->
-            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
-                <TextBlock Text="Confirm Password" Foreground="{StaticResource PrimaryTextBrush}" Margin="5"/>
-                <PasswordBox Width="280" 
-                  Style="{StaticResource RoundedPasswordBox}"/>
-            </StackPanel>
+           
 
             <!-- First Name -->
             <StackPanel Orientation="Vertical" Margin="0,0,0,10">

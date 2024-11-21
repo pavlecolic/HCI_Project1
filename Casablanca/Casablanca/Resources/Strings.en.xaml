@@ -42,5 +42,8 @@
     <sys:String x:Key="invalidCustomer">Invalid customer</sys:String>
     <sys:String x:Key="newRental">New Rental</sys:String>
     <sys:String x:Key="return">Returned</sys:String>
+    <sys:String x:Key="oldPassword">Current password</sys:String>
+    <sys:String x:Key="security">Security</sys:String>
+
 
 </ResourceDictionary>

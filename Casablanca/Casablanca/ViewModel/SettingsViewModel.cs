@@ -105,7 +105,20 @@ namespace Casablanca.ViewModel
         {
             UserRepository = new UserRepository();
             SaveCommand = new ViewModelCommand(ExecuteSaveCommand);
+            LoadUserData();
 
+        }
+
+        private void LoadUserData()
+        {
+            User user = UserRepository.GetByUsername(Thread.CurrentPrincipal.Identity.Name);
+            if(user != null)
+            {
+                Username = user.username;
+                FirstName = user.firstName;
+                LastName = user.lastName;
+                
+            }
         }
 
 

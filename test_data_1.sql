@@ -17,8 +17,8 @@ INSERT INTO `user` (`username`, `password`, `first_name`, `last_name`, `theme`, 
 ('jdoe', 'password1', 'John', 'Doe', 'dark', 'English', 50000, 1),
 ('asmith', 'password2', 'Alice', 'Smith', 'light', 'English', 40000, 0);
 
--- Insert test data into `article type`
-INSERT INTO `article type` (`type_name`) VALUES
+-- Insert test data into `article_type`
+INSERT INTO `article_type` (`type_name`) VALUES
 ('Book'),
 ('Magazine'),
 ('DVD');
@@ -40,7 +40,7 @@ INSERT INTO `publisher` (`id`, `name`) VALUES
 
 -- Insert test data into `article`
 INSERT INTO `article` (`id`, `name`, `image`, `type_id`, `is_rented`, `price`, `publisher_id`, `invoice_id`, `is_for_sale`) VALUES
-(1, 'Article1', 'image1.jpg', 1, 0, 10.00, 1, 1, 1),
+(1, 'Article1', 'Images/Articles/silence_of_the_lambs.jpg', 1, 0, 10.00, 1, 1, 1),
 (2, 'Article2', 'image2.jpg', 2, 1, 20.00, 2, 2, 0);
 
 -- Insert test data into `customer`
@@ -54,6 +54,6 @@ INSERT INTO `rental` (`rent_date`, `due_date`, `return_date`, `price`, `cutomer_
 ('2023-04-01 10:00:00', '2023-04-15 10:00:00', '2023-04-14 09:00:00', 7.50, 2);
 
 -- Insert test data into `rented article`
-INSERT INTO `rented article` (`article_id`, `rental_id`, `price`) VALUES
+INSERT INTO `rented_article` (`article_id`, `rental_id`, `price`) VALUES
 (1, 1, 5.00),
 (2, 2, 7.50);

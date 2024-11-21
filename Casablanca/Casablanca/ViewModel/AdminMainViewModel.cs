@@ -92,6 +92,10 @@ namespace Casablanca.ViewModel
         {
             get;
         }
+        public ICommand ShowSecurityViewCommand
+        {
+            get;
+        }
 
         public ICommand LogOutCommand
         {
@@ -111,6 +115,7 @@ namespace Casablanca.ViewModel
             ShowCitiesViewCommand = new ViewModelCommand(ExecuteShowCitiesViewCommand);
             ShowArticleTypeViewCommand = new ViewModelCommand(ExecuteShowArticleTypeViewCommand);
             ShowSettingsViewCommand = new ViewModelCommand(ExecuteShowSettingsViewCommand);
+            ShowSecurityViewCommand = new ViewModelCommand(ExecuteShowSecurityViewCommand);
 
             LogOutCommand = new ViewModelCommand(ExecuteLogOutCommand);
 
@@ -192,6 +197,20 @@ namespace Casablanca.ViewModel
             Icon = IconChar.Gears;
         }
 
+        private void ExecuteShowSecurityViewCommand(object? obj)
+        {
+            CurrentChildView = new SecurityViewModel();
+
+            ResourceDictionary dictionary = Application.Current.Resources.MergedDictionaries[0];
+            string? name = dictionary["security"] as string;
+            if (name != null)
+            {
+                Caption = name;
+            }
+            Icon = IconChar.Key;
+        }
+
+
         private void LoadCurrentUserData()
         {
             User user = userRepository.GetByUsername(Thread.CurrentPrincipal.Identity.Name);
@@ -201,6 +220,7 @@ namespace Casablanca.ViewModel
                 CurrentUserAccount.DisplayName = $"{user.firstName} {user.lastName}";
             }
         }
+
 
         protected void ExecuteLogOutCommand(object? obj)
         {
